@@ -1,0 +1,43 @@
+{
+  "generations1": [
+    {
+      "versions": {
+        "rouge": [
+          {
+            "personnages": [
+              {
+                "id": 1,
+                "nom": "Oak",
+                "informations": "Recherche sur les Pokémons"
+              },
+              { "id": 2, "nom": "Red", "informations": "" }
+            ]
+          },
+          {
+            "pokedex": [
+              { "id": 1, "nom": "Bulbasaur", "type": ["Grass", "Poison"] },
+              { "id": 4, "nom": "Charmander", "type": ["Fire"] }
+            ]
+          }
+        ],
+        "vert": [
+          {
+            "Pokedex": [
+              { "id": 1, "nom": "Bulbasaur", "type": ["Grass", "Poison"] },
+              { "id": 4, "nom": "Charmander", "type": ["Fire"] }
+            ]
+          },
+          {
+            "Objetdex": [{ "id": 1, "nom": "Soin", "effet": "soigne" }]
+          },
+          {
+            "Geodex": [
+              { "id": 1, "nom": "Village initial", "description": "" },
+              { "id": 2, "nom": "Masala", "description": "" }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

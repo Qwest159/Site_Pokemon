@@ -1,0 +1,54 @@
+{
+  "chefs": {
+    "nomtitre": "Chefs",
+    "perso_chefs": [
+      {
+        "id": 1,
+        "nom": "Takeshi"
+      },
+      {
+        "id": 2,
+        "nom": "Kasumiyo"
+      },
+      {
+        "id": 3,
+        "nom": "Yamatisu"
+      },
+      {
+        "id": 4,
+        "nom": "Erica"
+      },
+      {
+        "id": 5,
+        "nom": "Kyou"
+      },
+      {
+        "id": 6,
+        "nom": "Jujube"
+      },
+      {
+        "id": 7,
+        "nom": "Yukalla"
+      },
+      {
+        "id": 8,
+        "nom": "---"
+      }
+    ]
+  },
+
+  "Personnages": {
+    "nomtitre": "Personnages secondaires",
+    "perso_rencontre": [
+      {
+        "id": 1,
+        "nom": "Oak",
+        "informations": "Le professeur Okido ? Il fait des recherches sur les Pokémon. Il habite à Masara Town, où il a également son laboratoire. Il est le grand-père du rival. \nC’est lui qui donne leur premier Pokémon au personnage principal et à son rival."
+      },
+      { "id": 2, "nom": "Green", "informations": "" },
+      { "id": 3, "nom": "Rival", "informations": "Il s'appele red" },
+      { "id": 4, "nom": "Mother", "informations": "" },
+      { "id": 5, "nom": "Soeur de Red", "informations": "" }
+    ]
+  }
+}
