@@ -1,35 +1,25 @@
 <script setup>
 import { defineProps, ref, onMounted } from "vue";
-
-//EN FUNCTION
-// 1) faire un tableau des immages qu'on souhaite
-// 2) afficher id un par un
-// 3) avoir un button pour cliquer dessus => id +1 pour afficher l'index suivant
-
+import { ArrowLeftIcon, ArrowRightIcon } from "@heroicons/vue/24/solid";
 let tableaux_img = [
   "/img/Pages FR/Manuel_p1.bmp",
-  "/img/Pages FR/Manuel_p2.bmp",
   "/img/Pages FR/Manuel_précautions_p1.bmp",
   "/img/Pages FR/Manuel_précautions_p2.bmp",
+  "/img/Pages FR/Manuel_p2.bmp",
+  "/img/Pages FR/Manuel_p3.bmp",
+  "/img/Pages FR/Manuel_p4.jpg",
 ];
 let id_image = ref(0);
 
 function click(quantity) {
-  //rajout de if si l'index depasse un count, alors va a 0 ou va a count
-  // ATTENTION REGARDE COUNT CAR TABLEAUX INDEX EST DIFFERENT
-
   if (quantity) {
     id_image.value += quantity;
-
     if (id_image.value == tableaux_img.length) {
       id_image.value = 0;
     } else if (id_image.value < 0) {
       id_image.value = tableaux_img.length - 1;
     }
-    console.log(id_image.value);
   }
-  //   console.log(id_image.value);
-
   return tableaux_img[id_image.value];
 }
 </script>
@@ -47,14 +37,28 @@ function click(quantity) {
     </nav>
 
     <main id="partie droite" class="col-span-5 mx-2 font-extrabold">
-      <p class="text-xl text-center">Ceci est le manuel</p>
-      <figure>
-        <button @click="click(-1)" id="button-1" class="bg-red-600 p-2">
-          -1
+      <figure class="flex flex-row justify-center">
+        <button
+          @click="click(-1)"
+          id="button-1"
+          class="bg-red-600 p-2 h-12 self-center rounded-full"
+        >
+          <ArrowLeftIcon class="w-6 h-6 font-extrabold text-white" />
         </button>
-        <img :src="`/storage/${click()}`" alt="" />
-        <button type="button" class="bg-green-600 p-2" @click="click(+1)">
-          +1
+        <button @click="click(-1)" id="button+1">
+          <img
+            :src="`/storage/${click()}`"
+            alt="Manuel"
+            class="min-w-28 h-screen rounded-2xl"
+          />
+        </button>
+
+        <button
+          type="button"
+          class="bg-green-600 p-2 h-12 self-center rounded-full text-white"
+          @click="click(+1)"
+        >
+          <ArrowRightIcon class="w-6 h-6" />
         </button>
       </figure>
     </main>
