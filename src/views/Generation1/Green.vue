@@ -17,6 +17,8 @@ import { defineProps, ref, onMounted } from "vue";
 
 // ATTENTION ID -1 (met +1 par rapport au lien)
 
+// boucle en remplacant les /n par <br>
+
 let personnagesList = ref([]);
 const isLoading = ref(true);
 const error = ref(null);
