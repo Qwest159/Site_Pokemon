@@ -37,6 +37,9 @@ function click(quantity) {
     </nav>
 
     <main id="partie droite" class="col-span-5 mx-2 font-extrabold">
+      <h1 class="text-center">
+        Voici la traduction du manuel japonais de Pokémon Version Verte.
+      </h1>
       <figure class="flex flex-row justify-center">
         <button
           @click="click(-1)"
@@ -45,11 +48,13 @@ function click(quantity) {
         >
           <ArrowLeftIcon class="w-6 h-6 font-extrabold text-white" />
         </button>
+        <!-- IMAGE -->
         <button @click="click(-1)" id="button+1">
           <img
             :src="`/storage/${click()}`"
             alt="Manuel"
-            class="min-w-28 h-screen rounded-2xl"
+            id="image"
+            class="rounded-2xl border-4 shadow-2xl"
           />
         </button>
 
@@ -64,3 +69,9 @@ function click(quantity) {
     </main>
   </div>
 </template>
+<style>
+#image {
+  box-shadow: -6px 9px 5px 0px rgba(0, 0, 0, 0.75);
+  height: 96.26vh;
+}
+</style>
