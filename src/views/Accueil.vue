@@ -44,75 +44,30 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="wrapper">
-    <nav>
-      <div
-        class="flex h-14 items-center space-x-4 bg-linear-to-t from-red-500 to-green-500 text-white my-4"
+  <div class="grid grid-cols-6">
+    <nav
+      class="col-span-1 flex flex-col h-screen bg-linear-to-t from-red-500 to-green-500 text-white"
+    >
+      <RouterLink d to="/">Accueil</RouterLink>
+      <RouterLink d to="/Manuel">Traduction du manuel japonais</RouterLink>
+      <RouterLink to="/Versions"
+        >Différences entre les deux versions</RouterLink
       >
-        <RouterLink to="/Manuel">Traduction du manuel japonais</RouterLink>
-        <RouterLink to="/Versions"
-          >Différences entre les deux versions</RouterLink
-        >
-      </div>
     </nav>
-  </div>
-  <div class="wrapper">
-    <nav>
-      <div
-        class="flex items-center space-x-4 my-5 h-14 bg-linear-to-r from-red-500 to-green-500"
-      >
-        <RouterLink to="/Manuel">Traduction du manuel japonais</RouterLink>
-        <RouterLink to="/Versions"
-          >Différences entre les deux versions</RouterLink
-        >
-      </div>
-    </nav>
-  </div>
-  <div>
-    <div v-if="isLoading"></div>
-    <div v-else-if="error">Une erreur est survenue : {{ error.message }}</div>
-    <main v-else>
-      <h1 class="font-bold"></h1>
-      <article>
-        <!-- Personnages -->
-        <section id="Personnages">
-          <ul class="border-2 m-2">
-            <h1>{{ personnagesList.Personnages.nomtitre }}</h1>
-            <!--  perso_rencontre -->
-            <li
-              class="p-3"
-              v-for="perso_rencontre in personnagesList.Personnages
-                .perso_rencontre"
-              :key="perso_rencontre"
-            >
-              <h3>Nom: {{ perso_rencontre.nom }}</h3>
-              <p>Description : {{ perso_rencontre.informations }}</p>
-            </li>
-          </ul>
-          <!-- Chefs -->
-          <ul class="border-2 m-2">
-            <h1>{{ personnagesList.chefs.nomtitre }}</h1>
-            <li
-              class="p-3"
-              v-for="chefs in personnagesList.chefs.perso_chefs"
-              :key="chefs"
-            >
-              <h3 class="white-space: pre-line">Nom: {{ chefs.nom }}</h3>
-              <!-- <p>Description : {{ chefs.informations }}</p> -->
-            </li>
-          </ul>
-        </section>
-        <section>
-          <h1>Pokedex</h1>
-        </section>
-        <section>Objetdex</section>
-        <section>Geodex</section>
-      </article>
-    </main>
+
+    <div class="col-span-5 m-auto mx-2 font-extrabold text-9xl text-center">
+      Ceci est l'accueil
+    </div>
   </div>
 </template>
 <style>
 h3 {
   white-space: pre-line !important;
+}
+a {
+  @apply border-b-2;
+
+  padding: 0.5em 0.4em;
+  font-weight: 700;
 }
 </style>
