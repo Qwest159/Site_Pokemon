@@ -3,10 +3,10 @@
   <div class="grid grid-cols-6">
     <nav
       id="partie gauche"
-      class="col-span-1 flex flex-col h-screen bg-linear-to-t from-red-500 to-green-500 text-white"
+      class="col-span-1 flex flex-col h-screen bg-linear-to-t from-green-500 to-red-500 text-white"
     >
-      <RouterLink d to="/">Accueil</RouterLink>
-      <RouterLink d to="/Manuel">Traduction du manuel japonais</RouterLink>
+      <RouterLink to="/">Accueil</RouterLink>
+      <RouterLink to="/Manuel">Traduction du manuel japonais</RouterLink>
       <RouterLink to="/Versions"
         >Différences entre les deux versions</RouterLink
       >
