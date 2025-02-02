@@ -44,24 +44,20 @@ onMounted(() => {
 
 <template>
   <div class="grid grid-cols-6">
-    <nav
-      class="col-span-1 flex flex-col h-screen bg-linear-to-t from-green-500 to-red-500 text-white"
-    >
-      <RouterLink to="/">Accueil</RouterLink>
-      <RouterLink to="/Manuel">Traduction du manuel japonais</RouterLink>
-      <RouterLink to="/Versions"
-        >Différences entre les deux versions</RouterLink
-      >
-    </nav>
-
     <div class="col-span-5 m-auto mx-2 font-extrabold text-9xl text-center">
       Ceci est l'accueil
     </div>
   </div>
 </template>
 <style>
+h1 {
+  font-weight: 700;
+  font-size: x-large;
+}
 h3 {
   white-space: pre-line !important;
+  font-weight: 500;
+  font-size: large;
 }
 a {
   @apply border-b-2;

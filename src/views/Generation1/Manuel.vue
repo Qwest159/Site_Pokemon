@@ -10,58 +10,94 @@ let tableaux_img = [
   "/img/Pages FR/Manuel_p4.jpg",
 ];
 let id_image = ref(0);
+let rajout = ref(0);
+
+let nbr_tableaux = ref(tableaux_img.length - 1);
 
 function click(quantity) {
+  // console.log(id_image.value);
+
+  rajout.value = 0;
   if (quantity) {
     id_image.value += quantity;
-    if (id_image.value == tableaux_img.length) {
+    if (id_image.value > tableaux_img.length) {
+      // console.log("tableauxlongueur = id_image");
       id_image.value = 0;
-    } else if (id_image.value < 0) {
-      id_image.value = tableaux_img.length - 1;
     }
+    if (id_image.value < nbr_tableaux.value) {
+      // console.log("rajout +1 pour difference");
+      rajout.value += 1;
+    }
+    if (id_image.value < 0) {
+      // console.log("passe 0 + longueur tableaux");
+      id_image.value = 0;
+      id_image.value = tableaux_img.length - 2;
+    }
+    // console.log(id_image.value);
   }
-  return tableaux_img[id_image.value];
+  return [
+    () => tableaux_img[id_image.value], // Fonction pour image_gauche
+    () => tableaux_img[id_image.value + rajout.value], // Fonction pour image_droite
+  ];
 }
+let [image_gauche, image_droite] = click();
 </script>
 <template>
-  <div class="grid grid-cols-6">
-    <nav
-      id="partie gauche"
-      class="col-span-1 flex flex-col flex-wrap h-full bg-linear-to-t from-green-500 to-red-500 text-white"
-    >
-      <RouterLink to="/">Accueil</RouterLink>
-      <RouterLink to="/Manuel">Traduction du manuel japonais</RouterLink>
-      <RouterLink to="/Versions"
-        >Différences entre les deux versions</RouterLink
-      >
-    </nav>
-
-    <main id="partie droite" class="col-span-5 mx-2 font-extrabold">
-      <h1 class="text-center">
-        Voici la traduction du manuel japonais de Pokémon Version Verte.
+  <div id="partie" class="grid">
+    <main class="col-span-5 mx-2 text-center">
+      <h1 class="text-center border-4 border-dashed my-2">
+        Traduction du manuel japonais
       </h1>
+
+      <h3>
+        Voici la traduction du manuel japonais de Pokémon
+        <span>Version Verte</span>
+      </h3>
+      .
       <figure class="flex flex-row justify-center">
+        <!-- diminuer -->
         <button
-          @click="click(-1)"
+          @click="click(id_image === 1 ? -1 : -3)"
           id="button-1"
-          class="bg-red-600 p-2 h-12 self-center rounded-full"
+          class="bg-red-600 mr-1 p-2 h-12 self-center rounded-full cursor-pointer"
         >
-          <ArrowLeftIcon class="w-6 h-6 font-extrabold text-white" />
-        </button>
-        <!-- IMAGE -->
-        <button @click="click(-1)" id="button+1">
-          <img
-            :src="`/storage/${click()}`"
-            alt="Manuel"
-            id="image"
-            class="rounded-2xl border-4 shadow-2xl"
+          <ArrowLeftIcon
+            class="w-6 h-6 font-extrabold text-white cursor-pointer"
           />
         </button>
+        <!-- IMAGE GAUCHE -->
+        <button
+          v-if="id_image < nbr_tableaux"
+          class="cursor-pointer"
+          @click="click(id_image === 0 ? +1 : +3)"
+          id="button+1"
+        >
+          <img
+            :src="`/storage/${image_gauche()}`"
+            alt="Manuel"
+            id="image_gauche"
+            class=""
+          />
+        </button>
+        <!-- IMAGE droite -->
 
         <button
+          v-if="id_image != 0"
+          class="cursor-pointer"
+          @click="click(id_image === 0 ? +1 : +3)"
+          id="button+1"
+        >
+          <img
+            :src="`/storage/${image_droite()}`"
+            alt="Manuel"
+            id="image_droite"
+            class=""
+          />
+        </button>
+        <button
           type="button"
-          class="bg-green-600 p-2 h-12 self-center rounded-full text-white"
-          @click="click(+1)"
+          class="bg-green-600 ml-1 p-2 h-12 self-center rounded-full text-white cursor-pointer"
+          @click="click(id_image === 0 ? +1 : +3)"
         >
           <ArrowRightIcon class="w-6 h-6" />
         </button>
@@ -70,8 +106,34 @@ function click(quantity) {
   </div>
 </template>
 <style>
-#image {
-  box-shadow: -6px 9px 5px 0px rgba(0, 0, 0, 0.75);
-  height: 96.26vh;
+img {
+  /* box-shadow: 0px 5px 9px 5px rgba(0, 0, 0, 0.75); */
+  height: 74.5vh;
+}
+#image_gauche {
+  border-top-left-radius: 1em 1em;
+  border-bottom-left-radius: 1em 1em;
+  border-top: solid 0.2em;
+  border-left: solid 0.2em;
+  border-right: solid 0.1em;
+  border-bottom: solid 0.2em;
+}
+#image_droite {
+  border-top-right-radius: 1em 1em;
+  border-bottom-right-radius: 1em 1em;
+  border-top: solid 0.2em;
+  border-right: solid 0.2em;
+  border-left: solid 0.1em;
+
+  border-bottom: solid 0.2em;
+}
+h1 {
+  border-top-color: rgb(63, 163, 100);
+  border-left-color: rgb(63, 163, 100);
+  border-bottom-color: rgb(246, 76, 96);
+  border-right-color: rgb(246, 76, 96);
+}
+span {
+  color: rgb(63, 163, 100);
 }
 </style>
