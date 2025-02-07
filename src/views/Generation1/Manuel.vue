@@ -8,6 +8,8 @@ let tableaux_img = [
   "/img/Pages FR/Manuel_p2.bmp",
   "/img/Pages FR/Manuel_p3.bmp",
   "/img/Pages FR/Manuel_p4.jpg",
+  "/img/Pages FR/Manuel_p5.jpg",
+  "/img/Pages FR/Manuel_p6.jpg",
 ];
 let id_image = ref(0);
 let rajout = ref(0);
