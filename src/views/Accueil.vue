@@ -46,8 +46,9 @@ onMounted(() => {
   <div class="col-span-5 m-auto mx-2">
     <h1>Pocket Monsters Rouge (Aka) & Vert (Midori)</h1>
 
-    <figure class="m-auto">
+    <figure>
       <img
+        class="m-auto"
         src="/storage/img/Accueil/jaquette_rv.jpg"
         alt="jaquette rouge et vert"
       />
