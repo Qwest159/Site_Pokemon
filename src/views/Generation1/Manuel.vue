@@ -10,6 +10,7 @@ let tableaux_img = [
   "/img/Pages FR/Manuel_p4.jpg",
   "/img/Pages FR/Manuel_p5.jpg",
   "/img/Pages FR/Manuel_p6.jpg",
+  "/img/Pages FR/Manuel_p7.jpg",
 ];
 let id_image = ref(0);
 let rajout = ref(0);
@@ -27,16 +28,16 @@ function click(quantity) {
       id_image.value = 0;
     }
     if (id_image.value < nbr_tableaux.value) {
-      // console.log("rajout +1 pour difference");
       rajout.value += 1;
+      console.log(rajout.value);
     }
     if (id_image.value < 0) {
-      // console.log("passe 0 + longueur tableaux");
       id_image.value = 0;
-      id_image.value = tableaux_img.length - 2;
+      rajout.value = nbr_tableaux.value;
     }
     // console.log(id_image.value);
   }
+
   return [
     () => tableaux_img[id_image.value], // Fonction pour image_gauche
     () => tableaux_img[id_image.value + rajout.value], // Fonction pour image_droite
@@ -59,7 +60,7 @@ let [image_gauche, image_droite] = click();
       <figure class="flex flex-row justify-center">
         <!-- diminuer -->
         <button
-          @click="click(id_image === 1 ? -1 : -3)"
+          @click="click(id_image === 1 ? -1 : -2)"
           id="button-1"
           class="bg-red-600 mr-1 p-2 h-12 self-center rounded-full cursor-pointer"
         >
@@ -71,7 +72,7 @@ let [image_gauche, image_droite] = click();
         <button
           v-if="id_image < nbr_tableaux"
           class="cursor-pointer"
-          @click="click(id_image === 0 ? +1 : +3)"
+          @click="click(id_image === 0 ? +1 : +2)"
           id="button+1"
         >
           <img
@@ -86,7 +87,7 @@ let [image_gauche, image_droite] = click();
         <button
           v-if="id_image != 0"
           class="cursor-pointer"
-          @click="click(id_image === 0 ? +1 : +3)"
+          @click="click(id_image === 0 ? +1 : +2)"
           id="button+1"
         >
           <img
@@ -99,7 +100,7 @@ let [image_gauche, image_droite] = click();
         <button
           type="button"
           class="bg-green-600 ml-1 p-2 h-12 self-center rounded-full text-white cursor-pointer"
-          @click="click(id_image === 0 ? +1 : +3)"
+          @click="click(id_image === 0 ? +1 : +2)"
         >
           <ArrowRightIcon class="w-6 h-6" />
         </button>
@@ -107,7 +108,7 @@ let [image_gauche, image_droite] = click();
     </main>
   </div>
 </template>
-<style>
+<style scoped>
 img {
   /* box-shadow: 0px 5px 9px 5px rgba(0, 0, 0, 0.75); */
   height: 74.5vh;
