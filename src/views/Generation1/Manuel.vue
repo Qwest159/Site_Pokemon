@@ -54,7 +54,7 @@ let [image_gauche, image_droite] = click();
 
       <h3>
         Voici la traduction du manuel japonais de Pokémon
-        <span>Version Verte</span>
+        <span class="Vert">Version Verte</span>
       </h3>
       .
       <figure class="flex flex-row justify-center">
@@ -108,10 +108,16 @@ let [image_gauche, image_droite] = click();
     </main>
   </div>
 </template>
-<style scoped>
-img {
-  /* box-shadow: 0px 5px 9px 5px rgba(0, 0, 0, 0.75); */
-  height: 74.5vh;
+<style>
+@media (min-width: 100px) {
+  #image_gauche {
+    height: 18em !important;
+  }
+  #image_droite {
+    height: 18em !important;
+  }
+}
+@media (min-width: 500px) {
 }
 #image_gauche {
   border-top-left-radius: 1em 1em;
@@ -120,6 +126,8 @@ img {
   border-left: solid 0.2em;
   border-right: solid 0.1em;
   border-bottom: solid 0.2em;
+  height: 35em;
+  margin-bottom: 5em;
 }
 #image_droite {
   border-top-right-radius: 1em 1em;
@@ -127,8 +135,9 @@ img {
   border-top: solid 0.2em;
   border-right: solid 0.2em;
   border-left: solid 0.1em;
-
   border-bottom: solid 0.2em;
+  height: 35em;
+  margin-bottom: 5em;
 }
 h1 {
   border-top-color: rgb(63, 163, 100);
@@ -136,7 +145,7 @@ h1 {
   border-bottom-color: rgb(246, 76, 96);
   border-right-color: rgb(246, 76, 96);
 }
-span {
+span .vert {
   color: rgb(63, 163, 100);
 }
 </style>

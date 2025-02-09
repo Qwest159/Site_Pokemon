@@ -41,7 +41,7 @@ function responsive() {
 
       <nav
         id="nav_ordi"
-        class="nav_ordi col-span-1 flex-col flex-wrap h-full bg-linear-to-t from-green-500 to-red-500 text-white"
+        class="nav_ordi col-span-1 flex-col flex-wrap bg-linear-to-t from-green-500 to-red-500 text-white h-full"
       >
         <RouterLink to="/">Accueil</RouterLink>
         <RouterLink to="/Manuel">Traduction du manuel japonais</RouterLink>
@@ -80,8 +80,6 @@ function responsive() {
     display: flex;
   }
   header {
-    background-color: aqua !important;
-    height: 100vh;
     @apply col-span-1;
   }
   #partie {

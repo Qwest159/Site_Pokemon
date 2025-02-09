@@ -44,7 +44,9 @@ onMounted(() => {
 
 <template>
   <div class="col-span-5 m-auto mx-2">
-    <h1>Pocket Monsters Rouge (Aka) & Vert (Midori)</h1>
+    <h1 class="text-center border-4 border-dashed my-2">
+      Pocket Monsters Rouge (Aka) & Vert (Midori)
+    </h1>
 
     <figure>
       <img
@@ -61,21 +63,23 @@ onMounted(() => {
     <h2>
       <span>Noms japonais :</span>
       <ul class="pl-12">
-        <li>ポケットモンスター赤 (Pocket Monsters Aka (Rouge))</li>
-        <li>ポケットモンスター緑 (Pocket Monsters Midori (Vert))</li>
+        <li><span>ポケットモンスター赤</span> (Pocket Monsters Aka (Rouge))</li>
+        <li>
+          <span>ポケットモンスター緑</span> (Pocket Monsters Midori (Vert))
+        </li>
       </ul>
     </h2>
 
     <p>
-      Résumé : Le jeu met en scène un garçon de onze ans nommé Red (dans la
-      version Rouge) ou Green (dans la version Verte), qui part à l’aventure le
-      jour où le Professeur Okido lui offre son premier Pokémon. Un Pokémon ? Il
-      s’agit de créatures vivant dans la nature. Ceux-ci peuvent combattre, ce
-      qui leur fait gagner de l’expérience. Cette expérience leur permet
-      d’acquérir de nouvelles techniques et même éventuellement d’évoluer et de
-      changer de forme ! Votre objectif est double : compléter l’encyclopédie
-      Pokémon que vous a fourni le Professeur Okido et vaincre les huits Chefs
-      de Gymnase.
+      <span>Résumé :</span> Le jeu met en scène un garçon de onze ans nommé Red
+      (dans la version Rouge) ou Green (dans la version Verte), qui part à
+      l’aventure le jour où le Professeur Okido lui offre son premier Pokémon.
+      Un Pokémon ? Il s’agit de créatures vivant dans la nature. Ceux-ci peuvent
+      combattre, ce qui leur fait gagner de l’expérience. Cette expérience leur
+      permet d’acquérir de nouvelles techniques et même éventuellement d’évoluer
+      et de changer de forme ! Votre objectif est double : compléter
+      l’encyclopédie Pokémon que vous a fourni le Professeur Okido et vaincre
+      les huits Chefs de Gymnase.
     </p>
   </div>
 </template>
@@ -93,6 +97,7 @@ h1 {
   margin: 0.5em 0em;
 }
 h2 {
+  margin: 0.5em 0em;
 }
 h3 {
   white-space: pre-line !important;
