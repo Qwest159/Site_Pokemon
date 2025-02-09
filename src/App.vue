@@ -55,6 +55,7 @@ function responsive() {
 </template>
 
 <style>
+/* partie gsm */
 @media (min-width: 100px) {
   nav {
     display: none;
@@ -65,7 +66,14 @@ function responsive() {
   #partie_droite {
     @apply col-span-6;
   }
+  #image_gauche {
+    height: 18em;
+  }
+  #image_droite {
+    height: 18em;
+  }
 }
+/* partie ORDINATEUR */
 @media (min-width: 500px) {
   #nav_gsm,
   #nav_gsm_lien {
@@ -84,6 +92,14 @@ function responsive() {
   }
   #partie {
     @apply col-span-5;
+  }
+  #image_gauche {
+    height: 35em;
+    margin-bottom: 5em;
+  }
+  #image_droite {
+    height: 35em;
+    margin-bottom: 5em;
   }
 }
 nav {
