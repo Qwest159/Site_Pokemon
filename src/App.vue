@@ -72,6 +72,9 @@ function responsive() {
   #image_droite {
     height: 18em;
   }
+  #text-accueil {
+    margin: 0;
+  }
 }
 /* partie ORDINATEUR */
 @media (min-width: 500px) {
@@ -79,7 +82,9 @@ function responsive() {
   #nav_gsm_lien {
     display: none;
   }
-
+  #text-accueil {
+    margin: 2em 7em;
+  }
   #partie_body {
     display: grid;
     @apply grid-cols-6;

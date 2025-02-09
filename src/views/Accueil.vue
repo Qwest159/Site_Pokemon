@@ -47,30 +47,35 @@ onMounted(() => {
     <h1 class="text-center border-4 border-dashed my-2">
       Pocket Monsters Rouge (Aka) & Vert (Midori)
     </h1>
+    <div class="grid grid-cols-3 mt-10">
+      <figure class="col-span-2">
+        <img
+          class="m-auto"
+          src="/storage/img/Accueil/jaquette_rv.jpg"
+          alt="jaquette rouge et vert"
+        />
+      </figure>
+      <div class="col-span-1">
+        <h2><span>Développeur :</span> Game Freak</h2>
+        <h2><span>Éditeur :</span> Nintendo</h2>
+        <h2><span>Console :</span> Game Boy</h2>
+        <h2><span>Genre :</span> RPG</h2>
+        <h2><span>Date de sortie :</span> 27/02/1996</h2>
+        <h2>
+          <span>Noms japonais :</span>
+          <ul class="pl-12">
+            <li>
+              <span>ポケットモンスター赤</span> (Pocket Monsters Aka (Rouge))
+            </li>
+            <li>
+              <span>ポケットモンスター緑</span> (Pocket Monsters Midori (Vert))
+            </li>
+          </ul>
+        </h2>
+      </div>
+    </div>
 
-    <figure>
-      <img
-        class="m-auto"
-        src="/storage/img/Accueil/jaquette_rv.jpg"
-        alt="jaquette rouge et vert"
-      />
-    </figure>
-    <h2><span>Développeur :</span> Game Freak</h2>
-    <h2><span>Éditeur :</span> Nintendo</h2>
-    <h2><span>Console :</span> Game Boy</h2>
-    <h2><span>Genre :</span> RPG</h2>
-    <h2><span>Date de sortie :</span> 27/02/1996</h2>
-    <h2>
-      <span>Noms japonais :</span>
-      <ul class="pl-12">
-        <li><span>ポケットモンスター赤</span> (Pocket Monsters Aka (Rouge))</li>
-        <li>
-          <span>ポケットモンスター緑</span> (Pocket Monsters Midori (Vert))
-        </li>
-      </ul>
-    </h2>
-
-    <p>
+    <p id="text-accueil">
       <span>Résumé :</span> Le jeu met en scène un garçon de onze ans nommé Red
       (dans la version Rouge) ou Green (dans la version Verte), qui part à
       l’aventure le jour où le Professeur Okido lui offre son premier Pokémon.
@@ -106,7 +111,6 @@ h3 {
 }
 a {
   @apply border-b-2;
-
   padding: 0.5em 0.4em;
   font-weight: 700;
 }

@@ -109,6 +109,22 @@ let [image_gauche, image_droite] = click();
   </div>
 </template>
 <style>
+#image_gauche {
+  border-top-left-radius: 1em 1em;
+  border-bottom-left-radius: 1em 1em;
+  border-top: solid 0.2em;
+  border-left: solid 0.2em;
+  border-right: solid 0.1em;
+  border-bottom: solid 0.2em;
+}
+#image_droite {
+  border-top-right-radius: 1em 1em;
+  border-bottom-right-radius: 1em 1em;
+  border-top: solid 0.2em;
+  border-right: solid 0.2em;
+  border-left: solid 0.1em;
+  border-bottom: solid 0.2em;
+}
 h1 {
   border-top-color: rgb(63, 163, 100);
   border-left-color: rgb(63, 163, 100);
