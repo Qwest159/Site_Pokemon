@@ -47,7 +47,7 @@ let [image_gauche, image_droite] = click();
 </script>
 <template>
   <div id="partie" class="grid">
-    <main class="col-span-5 mx-2 text-center">
+    <main class="col-span-5 mx-5 m-auto text-center">
       <h1 class="text-center border-4 border-dashed my-2">
         Traduction du manuel japonais
       </h1>

@@ -43,11 +43,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="col-span-5 m-auto mx-2">
-    <h1 class="text-center border-4 border-dashed my-2">
+  <div class="col-span-5 mx-5 m-auto">
+    <h1 class="text-center border-4 border-dashed">
       Pocket Monsters Rouge (Aka) & Vert (Midori)
     </h1>
-    <div class="grid grid-cols-3 mt-10">
+    <div id="description-accueil" class="grid grid-cols-3 mt-10">
       <figure class="col-span-2">
         <img
           class="m-auto"
@@ -55,7 +55,9 @@ onMounted(() => {
           alt="jaquette rouge et vert"
         />
       </figure>
-      <div class="col-span-1">
+      <div
+        class="col-span-1 info-accueil border-4 rounded-xl mx-5 p-2 justify-self-center"
+      >
         <h2><span>Développeur :</span> Game Freak</h2>
         <h2><span>Éditeur :</span> Nintendo</h2>
         <h2><span>Console :</span> Game Boy</h2>
@@ -63,7 +65,7 @@ onMounted(() => {
         <h2><span>Date de sortie :</span> 27/02/1996</h2>
         <h2>
           <span>Noms japonais :</span>
-          <ul class="pl-12">
+          <ul class="pl-12 pt-2 m-auto">
             <li>
               <span>ポケットモンスター赤</span> (Pocket Monsters Aka (Rouge))
             </li>
@@ -103,6 +105,7 @@ h1 {
 }
 h2 {
   margin: 0.5em 0em;
+  border-bottom: ;
 }
 h3 {
   white-space: pre-line !important;

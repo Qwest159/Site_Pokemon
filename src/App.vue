@@ -56,7 +56,7 @@ function responsive() {
 
 <style>
 /* partie gsm */
-@media (min-width: 100px) {
+@media (min-width: 0px) {
   nav {
     display: none;
   }
@@ -72,19 +72,14 @@ function responsive() {
   #image_droite {
     height: 18em;
   }
-  #text-accueil {
-    margin: 0;
-  }
 }
 /* partie ORDINATEUR */
-@media (min-width: 500px) {
+@media (min-width: 760px) {
   #nav_gsm,
   #nav_gsm_lien {
     display: none;
   }
-  #text-accueil {
-    margin: 2em 7em;
-  }
+
   #partie_body {
     display: grid;
     @apply grid-cols-6;
@@ -105,6 +100,21 @@ function responsive() {
   #image_droite {
     height: 35em;
     margin-bottom: 5em;
+  }
+  #text-accueil {
+    margin: 2em 7em;
+  }
+}
+/* adaptation pour accueil */
+@media (max-width: 1120px) {
+  #description-accueil {
+    grid-template-columns: 1fr;
+  }
+  #text-accueil {
+    margin: 2em 2em;
+  }
+  .info-accueil {
+    margin: 2em 2em 0em 2em;
   }
 }
 nav {
