@@ -105,7 +105,6 @@ h1 {
 }
 h2 {
   margin: 0.5em 0em;
-  border-bottom: ;
 }
 h3 {
   white-space: pre-line !important;
