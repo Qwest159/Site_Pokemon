@@ -120,4 +120,10 @@ function responsive() {
 nav {
   font-weight: 600;
 }
+h1,
+h2,
+h3,
+p {
+  margin: 1em 0em;
+}
 </style>
