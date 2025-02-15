@@ -56,24 +56,41 @@ onMounted(() => {
         />
       </figure>
       <div
-        class="col-span-1 info-accueil border-4 rounded-xl mx-5 p-2 justify-self-center"
+        class="col-span-1 info-accueil rounded-xl mx-5 p-2 justify-self-center"
       >
-        <h2><span>Développeur :</span> Game Freak</h2>
-        <h2><span>Éditeur :</span> Nintendo</h2>
-        <h2><span>Console :</span> Game Boy</h2>
-        <h2><span>Genre :</span> RPG</h2>
-        <h2><span>Date de sortie :</span> 27/02/1996</h2>
-        <h2>
-          <span>Noms japonais :</span>
-          <ul class="pl-12 pt-2 m-auto">
-            <li>
-              <span>ポケットモンスター赤</span> (Pocket Monsters Aka (Rouge))
-            </li>
-            <li>
-              <span>ポケットモンスター緑</span> (Pocket Monsters Midori (Vert))
-            </li>
-          </ul>
-        </h2>
+        <table class="text-center">
+          <tr>
+            <td>Développeur</td>
+            <td>Game Freak</td>
+          </tr>
+          <tr>
+            <td>Éditeur</td>
+            <td>Nintendo</td>
+          </tr>
+          <tr>
+            <td>Console</td>
+            <td>Game Boy</td>
+          </tr>
+          <tr>
+            <td>Genre</td>
+            <td>RPG</td>
+          </tr>
+          <tr>
+            <td>Date de sortie</td>
+            <td>27/02/1996</td>
+          </tr>
+          <tr>
+            <td>Noms japonais</td>
+            <td>
+              <p>ポケットモンスター赤</p>
+              <p class="italic border-b-2 border-dashed pb-2">
+                (Pocket Monsters Aka (Rouge))
+              </p>
+              <p class="mt-2">ポケットモンスター緑</p>
+              <p class="italic">(Pocket Monsters Midori (Vert))</p>
+            </td>
+          </tr>
+        </table>
       </div>
     </div>
 
@@ -94,9 +111,6 @@ onMounted(() => {
 li {
   @apply list-disc;
 }
-span {
-  font-weight: 700;
-}
 h1 {
   text-align: center;
   font-weight: 700;
@@ -115,5 +129,15 @@ a {
   @apply border-b-2;
   padding: 0.5em 0.4em;
   font-weight: 700;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
 }
 </style>
