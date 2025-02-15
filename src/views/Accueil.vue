@@ -95,15 +95,15 @@ onMounted(() => {
     </div>
 
     <p id="text-accueil">
-      <span>Résumé :</span> Le jeu met en scène un garçon de onze ans nommé Red
-      (dans la version Rouge) ou Green (dans la version Verte), qui part à
-      l’aventure le jour où le Professeur Okido lui offre son premier Pokémon.
-      Un Pokémon ? Il s’agit de créatures vivant dans la nature. Ceux-ci peuvent
-      combattre, ce qui leur fait gagner de l’expérience. Cette expérience leur
-      permet d’acquérir de nouvelles techniques et même éventuellement d’évoluer
-      et de changer de forme ! Votre objectif est double : compléter
-      l’encyclopédie Pokémon que vous a fourni le Professeur Okido et vaincre
-      les huits Chefs de Gymnase.
+      <span class="font-bold">Résumé :</span> Le jeu met en scène un garçon de
+      onze ans nommé Red (dans la version Rouge) ou Green (dans la version
+      Verte), qui part à l’aventure le jour où le Professeur Okido lui offre son
+      premier Pokémon. Un Pokémon ? Il s’agit de créatures vivant dans la
+      nature. Ceux-ci peuvent combattre, ce qui leur fait gagner de
+      l’expérience. Cette expérience leur permet d’acquérir de nouvelles
+      techniques et même éventuellement d’évoluer et de changer de forme ! Votre
+      objectif est double : compléter l’encyclopédie Pokémon que vous a fourni
+      le Professeur Okido et vaincre les huits Chefs de Gymnase.
     </p>
   </div>
 </template>
@@ -139,5 +139,8 @@ td {
 
 tbody > tr:nth-of-type(even) {
   background-color: rgb(237 238 242);
+}
+tbody > tr td:nth-child(2n + 1) {
+  font-weight: 700;
 }
 </style>
