@@ -1,0 +1,52 @@
+{
+  "lieux": [
+    {
+      "nom_titre": "Masara Town",
+      "nom_description": "En japonais : <span class='italic'>マサラタウン (Masara Taun)</span>  C’est dans cette ville que l’histoire de Pokémon versions Rouge et Verte commence.",
+      "habitants": [
+        {
+          "id": 1,
+          "nom": "Le protagoniste"
+        },
+        {
+          "id": 2,
+          "nom": "La mère du protagoniste"
+        },
+        {
+          "id": 3,
+          "nom": "Le rival du protagoniste"
+        },
+        {
+          "id": 4,
+          "nom": "Le Professeur Okido"
+        },
+        {
+          "id": 5,
+          "nom": "Un Chef de Gymnase ?"
+        }
+      ],
+      "batiments": [
+        {
+          "id": 1,
+          "nom": "La maison du protagoniste."
+        },
+        {
+          "id": 2,
+          "nom": "La maison du rival."
+        },
+        {
+          "id": 3,
+          "nom": "Le labo : Lieu de travail du Professeur Okido. c’est là que le protagoniste et le rival choisissent leur premier Pokémon parmi les trois proposés par le professeur."
+        },
+        {
+          "id": 4,
+          "nom": "Un magasin ?"
+        },
+        {
+          "id": 5,
+          "nom": "Un Gymnase ?"
+        }
+      ]
+    }
+  ]
+}

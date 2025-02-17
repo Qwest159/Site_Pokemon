@@ -36,6 +36,8 @@ function responsive() {
           <RouterLink to="/Versions"
             >Différences entre les deux versions</RouterLink
           >
+          <RouterLink to="/Histoire">Histoire</RouterLink>
+          <RouterLink to="/Lieux">Les lieux</RouterLink>
         </div>
       </div>
 
@@ -48,6 +50,8 @@ function responsive() {
         <RouterLink to="/Versions"
           >Différences entre les deux versions</RouterLink
         >
+        <RouterLink to="/Histoire">Histoire</RouterLink>
+        <RouterLink to="/Lieux">Les lieux</RouterLink>
       </nav>
     </header>
     <RouterView />
