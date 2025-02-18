@@ -2,7 +2,7 @@
   "lieux": [
     {
       "nom_titre": "Masara Town",
-      "nom_description": "En japonais : <span class='italic'>マサラタウン (Masara Taun)</span>  C’est dans cette ville que l’histoire de Pokémon versions Rouge et Verte commence.",
+      "nom_description": "<p>En japonais : <span class='italic'>マサラタウン (Masara Taun)</span></p><p>C’est dans cette ville que l’histoire de Pokémon versions Rouge et Verte commence.</p>",
       "habitants": [
         {
           "id": 1,
