@@ -8,7 +8,7 @@ const error = ref(null);
 function fetchPokemonList() {
   try {
     personnageList.value = personnage;
-    console.log(personnageList.value.personnage);
+    console.log(personnageList.value.personnages);
   } catch (err) {
     error.value = err;
   } finally {
@@ -28,34 +28,52 @@ onMounted(() => {
       <div v-else-if="error">Une erreur est survenue : {{ error.message }}</div>
       <article v-else>
         <!-- Lieu -->
-        <section
+        <table
           v-for="personnage in personnageList.personnages"
           :key="personnage"
-          class="grid grid-cols-3"
+          class="grid"
         >
-          <div class="col-span-2 border-2">
-            <h2>{{ personnage.nom_perso }}</h2>
-            <p v-html="personnage.nom_description"></p>
-          </div>
-          <figure class="col-span-1 border-t-2 border-r-2 border-b-2">
-            <img src="" alt="" /> bonjour
-          </figure>
-        </section>
+          <tr class="grid-cols-3" v-if="personnage.id % 2 == 0">
+            <td class="col-span-2">
+              <h2>{{ personnage.nom_perso }}</h2>
+              <p v-html="personnage.nom_description"></p>
+            </td>
+            <td class="col-span-1">
+              <figure class="">
+                <img
+                  :src="`/storage/${personnage.nom_img}`"
+                  :alt="`${personnage.nom_perso}`"
+                />
+              </figure>
+            </td>
+          </tr>
+          <tr class="grid-cols-3" v-else>
+            <td class="col-span-1">
+              <figure>
+                <img
+                  :src="`/storage/${personnage.nom_img}`"
+                  :alt="`${personnage.nom_perso}`"
+                />
+              </figure>
+            </td>
+            <td class="col-span-2 border-2">
+              <h2>{{ personnage.nom_perso }}</h2>
+              <p v-html="personnage.nom_description"></p>
+            </td>
+          </tr>
+        </table>
       </article>
     </main>
   </div>
 </template>
 <style scoped>
-table tr:first-child {
-  font-weight: 700;
-}
 h3 {
   font-weight: 700;
 }
 h2 {
   font-weight: 700;
 }
-.lien_habitants {
+a.lien_lieu {
   border: none;
 }
 </style>

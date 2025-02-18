@@ -15,6 +15,9 @@ let tableaux_img = [
   "/img/Pages FR/Manuel_p9.jpg",
   "/img/Pages FR/Manuel_p10.jpg",
   "/img/Pages FR/Manuel_p11.jpg",
+  "/img/Pages FR/Manuel_p12.jpg",
+  "/img/Pages FR/Manuel_p13.jpg",
+  "/img/Pages FR/Manuel_p14.jpg",
 ];
 let id_image = ref(0);
 let rajout = ref(0);

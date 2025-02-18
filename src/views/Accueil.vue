@@ -48,7 +48,7 @@ onMounted(() => {
       Pocket Monsters Rouge (Aka) & Vert (Midori)
     </h1>
     <div id="description-accueil" class="grid grid-cols-3 mt-10">
-      <figure class="col-span-2">
+      <figure class="col-span-2 self-center">
         <img
           class="m-auto"
           src="/storage/img/Accueil/jaquette_rv.jpg"
@@ -59,6 +59,17 @@ onMounted(() => {
         class="col-span-1 info-accueil rounded-xl mx-5 p-2 justify-self-center"
       >
         <table class="text-center">
+          <tr>
+            <td>Noms japonais</td>
+            <td>
+              <p>ポケットモンスター赤</p>
+              <p class="italic border-b-2 border-dashed pb-2">
+                (Pocket Monsters Aka (Rouge))
+              </p>
+              <p class="mt-2">ポケットモンスター緑</p>
+              <p class="italic">(Pocket Monsters Midori (Vert))</p>
+            </td>
+          </tr>
           <tr>
             <td>Développeur</td>
             <td>Game Freak</td>
@@ -78,17 +89,6 @@ onMounted(() => {
           <tr>
             <td>Date de sortie</td>
             <td>27/02/1996</td>
-          </tr>
-          <tr>
-            <td>Noms japonais</td>
-            <td>
-              <p>ポケットモンスター赤</p>
-              <p class="italic border-b-2 border-dashed pb-2">
-                (Pocket Monsters Aka (Rouge))
-              </p>
-              <p class="mt-2">ポケットモンスター緑</p>
-              <p class="italic">(Pocket Monsters Midori (Vert))</p>
-            </td>
           </tr>
         </table>
       </div>
