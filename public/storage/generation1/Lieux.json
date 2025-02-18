@@ -6,7 +6,8 @@
       "habitants": [
         {
           "id": 1,
-          "nom": "Le protagoniste"
+          "nom": "Le protagoniste",
+          "lien": ""
         },
         {
           "id": 2,

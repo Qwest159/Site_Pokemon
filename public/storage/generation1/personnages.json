@@ -1,54 +1,24 @@
 {
-  "chefs": {
-    "nomtitre": "Chefs",
-    "perso_chefs": [
-      {
-        "id": 1,
-        "nom": "Takeshi"
-      },
-      {
-        "id": 2,
-        "nom": "Kasumiyo"
-      },
-      {
-        "id": 3,
-        "nom": "Yamatisu"
-      },
-      {
-        "id": 4,
-        "nom": "Erica"
-      },
-      {
-        "id": 5,
-        "nom": "Kyou"
-      },
-      {
-        "id": 6,
-        "nom": "Jujube"
-      },
-      {
-        "id": 7,
-        "nom": "Yukalla"
-      },
-      {
-        "id": 8,
-        "nom": "---"
-      }
-    ]
-  },
-
-  "Personnages": {
-    "nomtitre": "Personnages secondaires",
-    "perso_rencontre": [
-      {
-        "id": 1,
-        "nom": "Oak",
-        "informations": "Le professeur Okido ? Il fait des recherches sur les Pokémon. Il habite à Masara Town, où il a également son laboratoire. Il est le grand-père du rival. \nC’est lui qui donne leur premier Pokémon au personnage principal et à son rival."
-      },
-      { "id": 2, "nom": "Green", "informations": "" },
-      { "id": 3, "nom": "Rival", "informations": "Il s'appele red" },
-      { "id": 4, "nom": "Mother", "informations": "" },
-      { "id": 5, "nom": "Soeur de Red", "informations": "" }
-    ]
-  }
+  "personnages": [
+    {
+      "nom_perso": "Le protagoniste",
+      "nom_description": "<p>Son nom change en fonction de la version : Red (レッド, Reddo) dans la version Rouge, Green (グリーン, Gurīn) dans la version Verte.</p><p>Il a onze ans. Il est originaire de Masara Town. Il y vit avec sa mère.</p><p>Il est l’ami d’enfance et rival de son voisin Green (version Rouge) / Red (version Verte). Ils ont le même âge et des résultats similaires à l’école, mais le protagoniste est plus grand que son rival. Ils se disputent souvent, ces derniers temps.</p><p>C’est un enfant très curieux.</p><p>Il reçoit son premier Pokémon du Professeur Okido le même jour que son rival. Il reçoit également l’Encyclopédie Pokémon, qu’il doit compléter.</p>"
+    },
+    {
+      "nom_perso": "Masara Town",
+      "nom_description": "En japonais : <span class='italic'>マサラタウン (Masara Taun)</span>  C’est dans cette ville que l’histoire de Pokémon versions Rouge et Verte commence."
+    },
+    {
+      "nom_perso": "Masara Town",
+      "nom_description": "En japonais : <span class='italic'>マサラタウン (Masara Taun)</span>  C’est dans cette ville que l’histoire de Pokémon versions Rouge et Verte commence."
+    },
+    {
+      "nom_perso": "Masara Town",
+      "nom_description": "En japonais : <span class='italic'>マサラタウン (Masara Taun)</span>  C’est dans cette ville que l’histoire de Pokémon versions Rouge et Verte commence."
+    },
+    {
+      "nom_perso": "Masara Town",
+      "nom_description": "En japonais : <span class='italic'>マサラタウン (Masara Taun)</span>  C’est dans cette ville que l’histoire de Pokémon versions Rouge et Verte commence."
+    }
+  ]
 }

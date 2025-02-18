@@ -15,7 +15,6 @@ let change = ref(false);
         <span>(Aka)</span> et la version Verte
         <span class="italic">(Midori)</span>. Certaines espèces de Pokémon sont
         exclusives à une version du jeu.
-        <span class="Vert">Version Verte</span>
       </h3>
       <p class="font-bold">Pokémon Exclusifs à Pokémon Rouge</p>
       <p class="font-bold">Pokémon Exclusifs à Pokémon Vert</p>

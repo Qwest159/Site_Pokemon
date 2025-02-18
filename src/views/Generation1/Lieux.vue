@@ -36,7 +36,14 @@ function span(text) {}
           <h3>Personnages qui y vivent :</h3>
           <ul v-for="habitants in lieu.habitants">
             <li>
-              {{ habitants.nom }}
+              <a
+                class="lien_habitants"
+                href="http://"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ habitants.nom }}</a
+              >
             </li>
           </ul>
 
@@ -57,5 +64,8 @@ table tr:first-child {
 }
 h3 {
   font-weight: 700;
+}
+.lien_habitants {
+  border: none;
 }
 </style>
