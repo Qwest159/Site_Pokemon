@@ -28,17 +28,27 @@ onMounted(() => {
       <div v-else-if="error">Une erreur est survenue : {{ error.message }}</div>
       <article v-else>
         <!-- Lieu -->
-        <table
-          v-for="personnage in personnageList.personnages"
-          :key="personnage"
-          class="grid"
-        >
-          <tr class="grid-cols-3" v-if="personnage.id % 2 == 0">
-            <td class="col-span-2" :id="personnage.id">
+        <table class="">
+          <tr
+            v-for="personnage in personnageList.personnages"
+            :key="personnage.id"
+            class=""
+          >
+            <td v-if="personnage.id % 2 == 0" class="">
               <h2>{{ personnage.nom_perso }}</h2>
               <p v-html="personnage.nom_description"></p>
             </td>
-            <td class="col-span-1">
+            <td v-if="personnage.id % 2 == 0" class="">
+              <figure class="m-auto">
+                <img
+                  class="m-auto"
+                  :src="`/storage/${personnage.nom_img}`"
+                  :alt="`${personnage.nom_perso}`"
+                />
+              </figure>
+            </td>
+
+            <td v-if="personnage.id % 2 == 1">
               <figure class="">
                 <img
                   :src="`/storage/${personnage.nom_img}`"
@@ -46,17 +56,7 @@ onMounted(() => {
                 />
               </figure>
             </td>
-          </tr>
-          <tr class="grid-cols-3" v-else>
-            <td class="col-span-1">
-              <figure>
-                <img
-                  :src="`/storage/${personnage.nom_img}`"
-                  :alt="`${personnage.nom_perso}`"
-                />
-              </figure>
-            </td>
-            <td class="col-span-2 border-2" :id="personnage.id">
+            <td v-if="personnage.id % 2 == 1">
               <h2>{{ personnage.nom_perso }}</h2>
               <p v-html="personnage.nom_description"></p>
             </td>
@@ -75,5 +75,9 @@ h2 {
 }
 .lien_lieu {
   border: none;
+}
+img {
+  width: 25vh;
+  margin: auto;
 }
 </style>
