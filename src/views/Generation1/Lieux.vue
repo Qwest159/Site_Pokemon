@@ -38,8 +38,7 @@ function span(text) {}
             <li>
               <a
                 class="lien_habitants"
-                href="http://"
-                target="_blank"
+                :href="habitants.lien"
                 rel="noopener noreferrer"
               >
                 {{ habitants.nom }}</a

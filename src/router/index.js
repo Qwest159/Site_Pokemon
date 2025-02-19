@@ -5,6 +5,7 @@ import Versions from "../views/Generation1/Versions.vue";
 import Histoire from "../views/Generation1/Histoire.vue";
 import Lieux from "../views/Generation1/Lieux.vue";
 import Personnages from "../views/Generation1/Personnages.vue";
+import Techniques from "../views/Generation1/Techniques.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -39,6 +40,11 @@ const router = createRouter({
       path: "/Personnages",
       name: "Personnages",
       component: Personnages,
+    },
+    {
+      path: "/Techniques",
+      name: "Techniques",
+      component: Techniques,
     },
   ],
 });

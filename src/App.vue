@@ -29,7 +29,7 @@ function responsive() {
         <div
           id="nav_gsm_lien"
           v-if="change"
-          class="flex flex-col border-4 m-auto w-full text-center"
+          class="flex flex-col border-2 border-white m-auto w-full text-center"
         >
           <RouterLink to="/">Accueil</RouterLink>
           <RouterLink to="/Manuel">Traduction du manuel japonais</RouterLink>
@@ -39,6 +39,7 @@ function responsive() {
           <RouterLink to="/Histoire">Histoire</RouterLink>
           <RouterLink to="/Lieux">Lieux</RouterLink>
           <RouterLink to="/Personnages">Personnages</RouterLink>
+          <RouterLink to="/Techniques">Techniques</RouterLink>
         </div>
       </div>
 
@@ -54,6 +55,7 @@ function responsive() {
         <RouterLink to="/Histoire">Histoire</RouterLink>
         <RouterLink to="/Lieux">Lieux</RouterLink>
         <RouterLink to="/Personnages">Personnages</RouterLink>
+        <RouterLink to="/Techniques">Techniques</RouterLink>
       </nav>
     </header>
     <RouterView />
@@ -62,6 +64,16 @@ function responsive() {
 
 <style>
 /* partie gsm */
+#nav_ordi a,
+#nav_gsm_lien a {
+  @apply border-b-2;
+  padding: 0.5em 0.4em;
+  font-weight: 700;
+  color: white;
+}
+a {
+  color: blue;
+}
 @media (min-width: 0px) {
   nav {
     display: none;

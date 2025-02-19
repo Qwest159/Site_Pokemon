@@ -1,0 +1,27 @@
+{
+  "personnages": [
+    {
+      "id": 0,
+      "nom_perso": "Le protagoniste",
+      "nom_description": "<p>Son nom change en fonction de la version : Red (<span class='italic'>レッド</span>, Reddo) dans la version Rouge, Green (<span class='italic'>グリーン</span>, Gurīn) dans la version Verte.</p><p>Il a onze ans. Il est originaire de   <a class='lien_lieu' href='/Lieux'>Masara Town</a>. Il y vit avec sa mère.</p><p>Il est l’ami d’enfance et rival de son voisin Green (version Rouge) / Red (version Verte). Ils ont le même âge et des résultats similaires à l’école, mais le protagoniste est plus grand que son rival. Ils se disputent souvent, ces derniers temps.</p><p>C’est un enfant très curieux.</p><p>Il reçoit son premier Pokémon du Professeur Okido le même jour que son rival. Il reçoit également l’Encyclopédie Pokémon, qu’il doit compléter.</p>",
+      "nom_img": "/img/Personnages/Red.png"
+    },
+    {
+      "id": 1,
+      "nom_perso": "Rival",
+      "nom_description": "<p>Son nom change en fonction de la version : Green (<span class='italic'>グリーン</span>, Gurīn) dans la version Rouge, Red (レッド, Reddo) dans la version Verte.</p><p>Il a onze ans. Il vit à Masara Town. Il est le petit-fils du Professeur Okido.</p><p>Il est l’ami d’enfance et rival du protagoniste de l’histoire. Ils ont le même âge et des résultats similaires à l’école, mais le rival est plus petit que le protagoniste.</p><p>Il semble chamailleur, dans la mesure où il se dispute souvent avec le protagoniste, ces derniers temps.</p><p>Il reçoit son premier Pokémon du Professeur Okido le même jour que le protagoniste du jeu.</p>",
+      "nom_img": "/img/Personnages/rival.png"
+    },
+    {
+      "id": 2,
+      "nom_perso": "Professeur Okido",
+      "nom_description": "<p>Le Professeur Okido (<span class='italic'>オーキド</span>, Ōkido) fait des recherches sur les Pokémon. Il vit à Masara Town, où il a son laboratoire.</p><p>Il est le grand-père du rival.</p>  <p>C’est lui qui donne leur premier Pokémon au protagoniste et au rival du jeu. C’est également lui qui donne l’Encyclopédie Pokémon à Red/Green</p>",
+      "nom_img": "/img/Personnages/Professeur_Chen-RV.png"
+    },
+    {
+      "id": 3,
+      "nom_perso": "La mère du protagoniste",
+      "nom_description": "<p>Elle vit avec son fils à Masara Town."
+    }
+  ]
+}

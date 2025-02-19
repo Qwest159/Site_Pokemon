@@ -34,7 +34,7 @@ onMounted(() => {
           class="grid"
         >
           <tr class="grid-cols-3" v-if="personnage.id % 2 == 0">
-            <td class="col-span-2" :id="personnage.id">
+            <td class="col-span-2">
               <h2>{{ personnage.nom_perso }}</h2>
               <p v-html="personnage.nom_description"></p>
             </td>
@@ -56,7 +56,7 @@ onMounted(() => {
                 />
               </figure>
             </td>
-            <td class="col-span-2 border-2" :id="personnage.id">
+            <td class="col-span-2 border-2">
               <h2>{{ personnage.nom_perso }}</h2>
               <p v-html="personnage.nom_description"></p>
             </td>

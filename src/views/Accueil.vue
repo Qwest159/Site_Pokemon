@@ -125,11 +125,6 @@ h3 {
   font-weight: 500;
   font-size: large;
 }
-a {
-  @apply border-b-2;
-  padding: 0.5em 0.4em;
-  font-weight: 700;
-}
 
 th,
 td {

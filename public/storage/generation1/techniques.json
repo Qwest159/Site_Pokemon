@@ -1,0 +1,46 @@
+{
+  "competences": [
+    {
+      "id": 0,
+      "nom_japonais": "<span class='italic'>ひっかく (Hikkaku)</span>",
+      "nom_francise": "Griffe",
+      "PP": "35"
+    },
+    {
+      "id": 1,
+      "nom_japonais": "<span class='italic'>ひのこ (Hinoko)</span>",
+      "nom_francise": "Étincelle",
+      "PP": "25"
+    },
+    {
+      "id": 2,
+      "nom_japonais": "<span class='italic'>かみつく (Kamitsuku)</span>",
+      "nom_francise": "Morsure",
+      "PP": "?"
+    },
+    {
+      "id": 3,
+      "nom_japonais": "<span class='italic'>みずでっぽう (Mizudeppō)</span>",
+      "nom_francise": "Pistolet à eau",
+      "PP": "?"
+    },
+    {
+      "id": 4,
+      "nom_japonais": "<span class='italic'>なきごえ (Nakigoe)</span>",
+      "nom_francise": "Cri",
+      "PP": "40"
+    },
+    {
+      "id": 5,
+      "nom_japonais": "<span class='italic'>しっぽをふる (Shippo o Furu) </span>",
+      "nom_francise": "Remue-queue",
+      "PP": "?"
+    },
+    {
+      "id": 6,
+      "nom_japonais": "<span class='italic'>たいあたり(Taiatari)</span>",
+      "nom_francise": "Charge",
+      "PP": "?"
+    }
+  ]
+}
