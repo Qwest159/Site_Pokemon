@@ -1,14 +1,14 @@
 <script setup>
 import { defineProps, ref, onMounted } from "vue";
-import personnage from "../../../public/storage/generation1/personnages.json";
-let personnageList = ref([]);
+import pokemon from "../../../public/storage/generation1/pokemon.json";
+let pokemonList = ref([]);
 const isLoading = ref(true);
 const error = ref(null);
 
 function fetchPokemonList() {
   try {
-    personnageList.value = personnage;
-    console.log(personnageList.value.personnages);
+    pokemonList.value = pokemon;
+    console.log(pokemonList.value);
   } catch (err) {
     error.value = err;
   } finally {
@@ -21,50 +21,37 @@ onMounted(() => {
 // if index pair = droite, si index impair alors gauche
 </script>
 <template>
-  <div id="partie" class="grid">
-    <main class="col-span-5 mx-5 m-auto">
-      <h1 class="text-justify border-4 border-dashed my-2">Personnages</h1>
-      <div v-if="isLoading"></div>
-      <div v-else-if="error">Une erreur est survenue : {{ error.message }}</div>
-      <article v-else>
-        <!-- Lieu -->
-        <table
-          v-for="personnage in personnageList.personnages"
-          :key="personnage"
-          class="grid"
-        >
-          <tr class="grid-cols-3" v-if="personnage.id % 2 == 0">
-            <td class="col-span-2">
-              <h2>{{ personnage.nom_perso }}</h2>
-              <p v-html="personnage.nom_description"></p>
-            </td>
-            <td class="col-span-1">
-              <figure class="">
-                <img
-                  :src="`/storage/${personnage.nom_img}`"
-                  :alt="`${personnage.nom_perso}`"
-                />
-              </figure>
-            </td>
-          </tr>
-          <tr class="grid-cols-3" v-else>
-            <td class="col-span-1">
-              <figure>
-                <img
-                  :src="`/storage/${personnage.nom_img}`"
-                  :alt="`${personnage.nom_perso}`"
-                />
-              </figure>
-            </td>
-            <td class="col-span-2 border-2">
-              <h2>{{ personnage.nom_perso }}</h2>
-              <p v-html="personnage.nom_description"></p>
-            </td>
-          </tr>
-        </table>
-      </article>
-    </main>
-  </div>
+  <main id="partie" class="mx-5">
+    <h1 class="border-4 border-dashed">Pokémon</h1>
+    <div v-if="isLoading"></div>
+    <div v-else-if="error">Une erreur est survenue : {{ error.message }}</div>
+    <article v-else>
+      <!-- Lieu -->
+      <table class="text-center m-auto">
+        <tr>
+          <th>#</th>
+          <th>Image</th>
+          <th>Nom japonais</th>
+          <th>Nom francisé</th>
+          <th>Type</th>
+        </tr>
+        <tr v-for="pokemon in pokemonList.pokemons" :key="pokemon.id" class="">
+          <td>{{ pokemon.id_pokemon }}</td>
+          <td>
+            <figure class="">
+              <img
+                :src="`/storage/${pokemon.image}`"
+                :alt="`${pokemon.nom_francise}`"
+              />
+            </figure>
+          </td>
+          <td class="italic">{{ pokemon.nom_japonais }}</td>
+          <td class="italic">{{ pokemon.nom_francise }}</td>
+          <td>{{ pokemon.type }}</td>
+        </tr>
+      </table>
+    </article>
+  </main>
 </template>
 <style scoped>
 h3 {
@@ -73,6 +60,7 @@ h3 {
 h2 {
   font-weight: 700;
 }
+
 .lien_lieu {
   border: none;
 }

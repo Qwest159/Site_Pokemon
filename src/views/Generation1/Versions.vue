@@ -4,7 +4,7 @@ import { defineProps, ref, onMounted } from "vue";
 let change = ref(false);
 </script>
 <template>
-  <div id="partie" class="grid">
+  <div id="partie">
     <main class="col-span-5 mx-5 m-auto text-center">
       <h1 class="text-center border-4 border-dashed my-2">
         Différences entre les deux versions

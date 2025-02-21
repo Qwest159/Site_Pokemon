@@ -40,6 +40,7 @@ function responsive() {
           <RouterLink to="/Lieux">Lieux</RouterLink>
           <RouterLink to="/Personnages">Personnages</RouterLink>
           <RouterLink to="/Techniques">Techniques</RouterLink>
+          <RouterLink to="/Pokemons">Pokémon</RouterLink>
         </div>
       </div>
 
@@ -56,6 +57,7 @@ function responsive() {
         <RouterLink to="/Lieux">Lieux</RouterLink>
         <RouterLink to="/Personnages">Personnages</RouterLink>
         <RouterLink to="/Techniques">Techniques</RouterLink>
+        <RouterLink to="/Pokemons">Pokémon</RouterLink>
       </nav>
     </header>
     <RouterView />

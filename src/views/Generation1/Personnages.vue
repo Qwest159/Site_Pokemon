@@ -21,7 +21,7 @@ onMounted(() => {
 // if index pair = droite, si index impair alors gauche
 </script>
 <template>
-  <div id="partie" class="grid">
+  <div id="partie">
     <main class="col-span-5 mx-5 m-auto">
       <h1 class="text-justify border-4 border-dashed my-2">Personnages</h1>
       <div v-if="isLoading"></div>
