@@ -9,6 +9,7 @@ import Techniques from "../views/Generation1/Techniques.vue";
 import Pokemons from "../views/Generation1/Pokemon.vue";
 import Objets from "../views/Generation1/Objets.vue";
 import Gymnases from "../views/Generation1/Gymnases.vue";
+import Controles from "../views/Generation1/Controles.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -63,6 +64,11 @@ const router = createRouter({
       path: "/Gymnases",
       name: "Gymnases",
       component: Gymnases,
+    },
+    {
+      path: "/Controles",
+      name: "Controles",
+      component: Controles,
     },
   ],
 });
