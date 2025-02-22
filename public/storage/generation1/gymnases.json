@@ -1,0 +1,60 @@
+{
+  "chef": [
+    {
+      "id": 0,
+      "img": "/img/Chef/Takeshi.jpg",
+      "nom_japonais": "タケシ",
+      "nom_francise": "Takeshi",
+      "description": "Il s’agit du premier Chef de Gymnase."
+    },
+    {
+      "id": 1,
+      "img": "/img/Chef/Kasumi.jpg",
+      "nom_japonais": "カスミ",
+      "nom_francise": "Kasumi",
+      "description": "Il s’agit de la deuxième Chef de Gymnase"
+    },
+    {
+      "id": 2,
+      "img": "/img/Chef/Matis.jpg",
+      "nom_japonais": "マチス",
+      "nom_francise": "Matis",
+      "description": "Il s’agit du troisième Chef de Gymnase."
+    },
+    {
+      "id": 3,
+      "img": "/img/Chef/Erika.jpg",
+      "nom_japonais": "エリカ",
+      "nom_francise": "Erika",
+      "description": "Il s’agit de la quatrième Chef de Gymnase."
+    },
+    {
+      "id": 4,
+      "img": "/img/Chef/Kyo.jpg",
+      "nom_japonais": "キョウ",
+      "nom_francise": "Kyo",
+      "description": "Il s’agit du cinquième Chef de Gymnase."
+    },
+    {
+      "id": 5,
+      "img": "/img/Chef/Natsume.jpg",
+      "nom_japonais": "ナツメ",
+      "nom_francise": "Natsume",
+      "description": "Il s’agit de la sixième Chef de Gymnase."
+    },
+    {
+      "id": 6,
+      "img": "/img/Chef/Katsura.jpg",
+      "nom_japonais": "カツラ",
+      "nom_francise": "Katsura",
+      "description": "Il s’agit du septième Chef de Gymnase."
+    },
+    {
+      "id": 7,
+      "img": "/img/Chef/mystere.jpg",
+      "nom_japonais": "?",
+      "nom_francise": "?",
+      "description": "Son identité est inconnue pour l’instant, mais il s’agit du huitième Chef de Gymnase. "
+    }
+  ]
+}

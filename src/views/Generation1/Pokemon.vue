@@ -27,7 +27,7 @@ onMounted(() => {
     <div v-else-if="error">Une erreur est survenue : {{ error.message }}</div>
     <article v-else>
       <!-- Lieu -->
-      <table class="text-center m-auto">
+      <table class="text-center m-auto mb-9">
         <tr>
           <th>#</th>
           <th>Image</th>
@@ -38,8 +38,9 @@ onMounted(() => {
         <tr v-for="pokemon in pokemonList.pokemons" :key="pokemon.id" class="">
           <td>{{ pokemon.id_pokemon }}</td>
           <td>
-            <figure class="">
+            <figure class="" v-if="pokemon.image">
               <img
+                class="m-auto"
                 :src="`/storage/${pokemon.image}`"
                 :alt="`${pokemon.nom_francise}`"
               />

@@ -26,11 +26,11 @@ onMounted(() => {
       <h1 class="text-justify border-4 border-dashed my-2">
         Liste des techniques
       </h1>
-      <h3 class="m-auto">
+      <p class="text-center">
         Il existe plusieurs techniques. Chacune est caractérisée par un nombre
         de Points de Pouvoirs (PP), c’est à dire le nombre de fois qu’un Pokémon
         peut l’utiliser :
-      </h3>
+      </p>
       <div v-if="isLoading"></div>
       <div v-else-if="error">Une erreur est survenue : {{ error.message }}</div>
       <article v-else>

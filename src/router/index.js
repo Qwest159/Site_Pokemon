@@ -7,6 +7,8 @@ import Lieux from "../views/Generation1/Lieux.vue";
 import Personnages from "../views/Generation1/Personnages.vue";
 import Techniques from "../views/Generation1/Techniques.vue";
 import Pokemons from "../views/Generation1/Pokemon.vue";
+import Objets from "../views/Generation1/Objets.vue";
+import Gymnases from "../views/Generation1/Gymnases.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -51,6 +53,16 @@ const router = createRouter({
       path: "/Pokemons",
       name: "Pokemons",
       component: Pokemons,
+    },
+    {
+      path: "/Objets",
+      name: "Objets",
+      component: Objets,
+    },
+    {
+      path: "/Gymnases",
+      name: "Gymnases",
+      component: Gymnases,
     },
   ],
 });

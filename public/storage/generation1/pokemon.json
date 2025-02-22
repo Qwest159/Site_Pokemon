@@ -31,6 +31,782 @@
       "nom_japonais": "ヒトカゲ",
       "nom_francise": "Hitokage",
       "type": "Flamme"
+    },
+    {
+      "id": 4,
+      "id_pokemon": "004",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 5,
+      "id_pokemon": "005",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 6,
+      "id_pokemon": "006",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 7,
+      "id_pokemon": "007",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 8,
+      "id_pokemon": "008",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 9,
+      "id_pokemon": "009",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 10,
+      "id_pokemon": "010",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 11,
+      "id_pokemon": "011",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 12,
+      "id_pokemon": "012",
+      "image": "",
+      "nom_japonais": "バタフリー",
+      "nom_francise": "Butterfree",
+      "type": "?"
+    },
+    {
+      "id": 13,
+      "id_pokemon": "013",
+      "image": "",
+      "nom_japonais": "ビードル",
+      "nom_francise": "Beedle",
+      "type": "?"
+    },
+    {
+      "id": 14,
+      "id_pokemon": "014",
+      "image": "",
+      "nom_japonais": "コクーン",
+      "nom_francise": "Cocoon",
+      "type": "?"
+    },
+    {
+      "id": 15,
+      "id_pokemon": "015",
+      "image": "",
+      "nom_japonais": "スピアー",
+      "nom_francise": "Spear",
+      "type": "?"
+    },
+    {
+      "id": 16,
+      "id_pokemon": "016",
+      "image": "/img/Pokemon/016_sprite_rv.png",
+      "nom_japonais": "ポッポ",
+      "nom_francise": "Poppo",
+      "type": "?"
+    },
+    {
+      "id": 17,
+      "id_pokemon": "017",
+      "image": "",
+      "nom_japonais": "ピジョン",
+      "nom_francise": "Pigeon",
+      "type": "?"
+    },
+    {
+      "id": 18,
+      "id_pokemon": "018",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 19,
+      "id_pokemon": "019",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 20,
+      "id_pokemon": "020",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 21,
+      "id_pokemon": "021",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 22,
+      "id_pokemon": "022",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 23,
+      "id_pokemon": "023",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 24,
+      "id_pokemon": "024",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 25,
+      "id_pokemon": "025",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 26,
+      "id_pokemon": "026",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 27,
+      "id_pokemon": "027",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 28,
+      "id_pokemon": "028",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 29,
+      "id_pokemon": "029",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 30,
+      "id_pokemon": "030",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 31,
+      "id_pokemon": "031",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 32,
+      "id_pokemon": "032",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 33,
+      "id_pokemon": "033",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 34,
+      "id_pokemon": "034",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 35,
+      "id_pokemon": "035",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 36,
+      "id_pokemon": "036",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 37,
+      "id_pokemon": "037",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 38,
+      "id_pokemon": "038",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 39,
+      "id_pokemon": "039",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 40,
+      "id_pokemon": "040",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 41,
+      "id_pokemon": "041",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 42,
+      "id_pokemon": "042",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 43,
+      "id_pokemon": "043",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 44,
+      "id_pokemon": "044",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 45,
+      "id_pokemon": "045",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 46,
+      "id_pokemon": "046",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 47,
+      "id_pokemon": "047",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 48,
+      "id_pokemon": "048",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 49,
+      "id_pokemon": "049",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 50,
+      "id_pokemon": "050",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 51,
+      "id_pokemon": "051",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 52,
+      "id_pokemon": "052",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 53,
+      "id_pokemon": "053",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 54,
+      "id_pokemon": "054",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 55,
+      "id_pokemon": "055",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 56,
+      "id_pokemon": "056",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 57,
+      "id_pokemon": "057",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 58,
+      "id_pokemon": "058",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 59,
+      "id_pokemon": "059",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 60,
+      "id_pokemon": "060",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 61,
+      "id_pokemon": "061",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 62,
+      "id_pokemon": "062",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 63,
+      "id_pokemon": "063",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 64,
+      "id_pokemon": "064",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 65,
+      "id_pokemon": "065",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 66,
+      "id_pokemon": "066",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 67,
+      "id_pokemon": "067",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 68,
+      "id_pokemon": "068",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 69,
+      "id_pokemon": "069",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 70,
+      "id_pokemon": "070",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 71,
+      "id_pokemon": "071",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 72,
+      "id_pokemon": "072",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 73,
+      "id_pokemon": "073",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 74,
+      "id_pokemon": "074",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 75,
+      "id_pokemon": "075",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 76,
+      "id_pokemon": "076",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 77,
+      "id_pokemon": "077",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 78,
+      "id_pokemon": "078",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 79,
+      "id_pokemon": "079",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 80,
+      "id_pokemon": "080",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 81,
+      "id_pokemon": "081",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 82,
+      "id_pokemon": "082",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 83,
+      "id_pokemon": "083",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 84,
+      "id_pokemon": "084",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 85,
+      "id_pokemon": "085",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 86,
+      "id_pokemon": "086",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 87,
+      "id_pokemon": "087",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 88,
+      "id_pokemon": "088",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 89,
+      "id_pokemon": "089",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 90,
+      "id_pokemon": "090",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 91,
+      "id_pokemon": "091",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 92,
+      "id_pokemon": "092",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 93,
+      "id_pokemon": "093",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 94,
+      "id_pokemon": "094",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 95,
+      "id_pokemon": "095",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 96,
+      "id_pokemon": "096",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 97,
+      "id_pokemon": "097",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 98,
+      "id_pokemon": "098",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 99,
+      "id_pokemon": "099",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
+    },
+    {
+      "id": 100,
+      "id_pokemon": "100",
+      "image": "",
+      "nom_japonais": "",
+      "nom_francise": "",
+      "type": ""
     }
   ]
 }
