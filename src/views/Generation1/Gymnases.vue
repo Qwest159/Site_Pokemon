@@ -1,6 +1,6 @@
 <script setup>
 import { defineProps, ref, onMounted } from "vue";
-import gymnase from "../../../public/storage/generation1/Gymnases.json";
+import gymnase from "../../../public/storage/generation1/gymnases.json";
 let gymnaseList = ref([]);
 const isLoading = ref(true);
 const error = ref(null);
