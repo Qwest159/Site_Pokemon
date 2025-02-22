@@ -79,7 +79,7 @@ const error = ref(null);
               faut introduire du texte. Lors d’un dialogue, lorsque l’icône
               <img
                 id="fleche"
-                src="../../../public/storage/img/Commande/logo_flèche_bas.png"
+                src="../../../public/storage/img/Commande/logo_fleche_bas.png"
                 alt="flèche bas"
               />
               s’affiche, permet d’afficher la suite du texte.
