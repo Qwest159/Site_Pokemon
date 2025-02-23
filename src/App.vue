@@ -43,7 +43,7 @@ function responsive() {
           <RouterLink to="/Pokemons">Pokémon</RouterLink>
           <RouterLink to="/Objets">Objets</RouterLink>
           <RouterLink to="/Gymnases">Gymnases</RouterLink>
-          <RouterLink to="/Controles">Controles</RouterLink>
+          <RouterLink to="/Controles">Mécaniques de jeu</RouterLink>
         </div>
       </div>
 
@@ -63,7 +63,7 @@ function responsive() {
         <RouterLink to="/Pokemons">Pokémon</RouterLink>
         <RouterLink to="/Objets">Objets</RouterLink>
         <RouterLink to="/Gymnases">Gymnases</RouterLink>
-        <RouterLink to="/Controles">Controles</RouterLink>
+        <RouterLink to="/Controles">Mécaniques de jeu</RouterLink>
       </nav>
     </header>
     <RouterView />
@@ -151,5 +151,13 @@ h2,
 h3,
 p {
   margin: 1em 0em;
+}
+h2 {
+  font-weight: 700;
+  font-size: larger;
+}
+h3 {
+  color: rgb(145, 145, 145);
+  margin-left: 3em;
 }
 </style>
