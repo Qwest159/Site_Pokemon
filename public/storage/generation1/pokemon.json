@@ -807,6 +807,72 @@
       "nom_japonais": "",
       "nom_francise": "",
       "type": ""
+    },
+    {
+      "id": 101,
+      "id_pokemon": "?",
+      "image": "/img/Pokemon/014_miniature.png",
+      "nom_japonais": "キャタピー",
+      "nom_francise": "Caterpie",
+      "type": "?"
+    },
+    {
+      "id": 101,
+      "id_pokemon": "?",
+      "image": "/img/Pokemon/Koratta_miniature.bmp",
+
+      "nom_japonais": "コラッタ",
+      "nom_francise": "Koratta",
+      "type": "?"
+    },
+    {
+      "id": 101,
+      "id_pokemon": "?",
+      "image": "/img/Pokemon/522px-Dracaufeu-RV.png",
+
+      "nom_japonais": "?",
+      "nom_francise": "?",
+      "type": "?"
+    },
+    {
+      "id": 101,
+      "id_pokemon": "?",
+      "image": "/img/Pokemon/719px-Florizarre-RV.png",
+      "nom_japonais": "?",
+      "nom_francise": "?",
+      "type": "?"
+    },
+    {
+      "id": 101,
+      "id_pokemon": "?",
+      "image": "/img/Pokemon/636px-Nidoran-RV.png",
+      "nom_japonais": "?",
+      "nom_francise": "?",
+      "type": "?"
+    },
+    {
+      "id": 101,
+      "id_pokemon": "?",
+      "image": "/img/Pokemon/Nidorina-RV.png",
+      "nom_japonais": "?",
+      "nom_francise": "?",
+      "type": "?"
+    },
+    {
+      "id": 101,
+      "id_pokemon": "?",
+      "image": "/img/Pokemon/inconnu_n5.png",
+      "nom_japonais": "?",
+      "nom_francise": "?",
+      "type": "?"
+    },
+    {
+      "id": 101,
+      "id_pokemon": "?",
+      "image": "/img/Pokemon/Melofee-RV.png",
+      "nom_japonais": "?",
+      "nom_francise": "?",
+      "type": "?"
     }
   ]
 }

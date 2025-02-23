@@ -92,16 +92,21 @@ const error = ref(null);
         </section>
         <section>
           <h2>Gestion de la partie</h2>
-          <figure class="flex justify-evenly">
-            <img
-              src="../../../public/storage/img/Commande/ecran_titre.jpg"
-              alt="ecran_titre"
-            />
-            <img
-              src="../../../public/storage/img/Commande/demarrage.jpg"
-              alt="demarrage"
-            />
-          </figure>
+          <div class="flex">
+            <figure class="">
+              <img
+                src="../../../public/storage/img/Commande/ecran_titre.jpg"
+                alt="ecran_titre"
+              />
+            </figure>
+            <figure>
+              <img
+                src="../../../public/storage/img/Commande/demarrage.jpg"
+                alt="demarrage"
+              />
+            </figure>
+          </div>
+
           <h3>Démarrer une nouvelle partie</h3>
           <p>
             Sur l’écran titre du jeu, appuyez sur A ou Start pour ouvrir le menu
@@ -150,63 +155,63 @@ const error = ref(null);
         </section>
         <section>
           <h2>Le menu</h2>
-          <figure class="flex items-center">
+          <figure class="grid col-span-3">
             <img
-              class="h-56"
+              class="h-56 col-span-1"
               src="../../../public/storage/img/Commande/menu.jpg"
               alt="reglages"
             />
-            <figcaption class="m-5">
-              <p>
+            <figcaption class="m-5 col-span-2">
+              <p class="">
                 Appuyez sur Start pour afficher le menu général du jeu. Celui-ci
                 vous offre plusieurs options
               </p>
             </figcaption>
           </figure>
-          <strong>Encyclopédie</strong>
+          <h3>Encyclopédie</h3>
           <p>
             Vous pouvez consulter l’Encyclopédie Pokémon, où vous trouverez des
             informations sur les Pokémon, comme leur cri ou leur localisation.
             Vous pouvez également voir combien de Pokémon vous avez vus et
             attrapés.
           </p>
-          <strong>Pokémon</strong>
-          <p>
-            Pokémon : vous pouvez ici voir l’état de votre équipe de Pokémon,
-            ainsi que leurs statistiques. Vous pouvez également arranger l’ordre
-            des Pokémon en sélectionnant un Pokémon et choisissant l’option
-            “Ordre”.
-          </p>
-          <figure class="m-auto">
+          <h3>Pokémon</h3>
+
+          <div class="flex items-center">
             <img
               class="h-56"
               src="../../../public/storage/img/Commande/equipe.jpg"
-              alt="equipe"
+              alt="reglages"
             />
-            <figcaption class="m-auto italic">
-              Votre équipe de Pokémon
-            </figcaption>
-          </figure>
-          <strong>Objets</strong>
+
+            <p class="pl-5">
+              Pokémon : vous pouvez ici voir l’état de votre équipe de Pokémon,
+              ainsi que leurs statistiques. Vous pouvez également arranger
+              l’ordre des Pokémon en sélectionnant un Pokémon et choisissant
+              l’option “Ordre”.
+            </p>
+          </div>
+          <figcaption class="ml-12">Votre équipe de Pokémon</figcaption>
+          <h3>Objets</h3>
           <p>
             Vous pouvez ici voir la liste des objets que vous possédez. Vous
             pouvez en porter 20 sur vous maximum. En sélectionnant un objet,
             vous avez la possibilité de l’utiliser ou de le jeter.
           </p>
-          <strong>Nom du protagoniste</strong>
+          <h3>Nom du protagoniste</h3>
           <p>
             vous pouvez ici consulter votre nom, l’argent que vous possédez,
             votre temps de jeu, ainsi que votre avancement dans la récolte des
             badges de Gymnases.
           </p>
-          <strong id="Rapport">Rapport</strong>
+          <h3 id="Rapport">Rapport</h3>
           <p>
             Vous pouvez ici sauvegarder votre partie. Cette option est tout le
             temps disponible, sauf lors d’un combat.
           </p>
-          <strong>Options</strong>
+          <h3>Options</h3>
           <p>Voir les réglages</p>
-          <strong>Fermer</strong>
+          <h3>Fermer</h3>
           <p>
             Cette commande vous permet de fermer le menu et de revenir au jeu.
           </p>

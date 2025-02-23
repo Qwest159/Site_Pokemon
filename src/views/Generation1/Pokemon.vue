@@ -38,7 +38,7 @@ onMounted(() => {
         <tr v-for="pokemon in pokemonList.pokemons" :key="pokemon.id" class="">
           <td>{{ pokemon.id_pokemon }}</td>
           <td>
-            <figure class="" v-if="pokemon.image">
+            <figure class="w-16" v-if="pokemon.image">
               <img
                 class="m-auto"
                 :src="`/storage/${pokemon.image}`"
