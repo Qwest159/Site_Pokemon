@@ -92,7 +92,7 @@ const error = ref(null);
         </section>
         <section>
           <h2>Gestion de la partie</h2>
-          <div class="flex">
+          <div class="flex justify-center">
             <figure class="">
               <img
                 src="../../../public/storage/img/Commande/ecran_titre.jpg"
@@ -132,57 +132,68 @@ const error = ref(null);
           </p>
         </section>
         <section>
-          <h2>Les réglages</h2>
-          <figure class="flex items-center">
-            <img
-              class="h-56"
-              src="../../../public/storage/img/Commande/reglages.jpg"
-              alt="reglages"
-            />
-            <figcaption class="m-5">
-              <p>Différentes options s’offrent à vous dans le menu dédié :</p>
-              <ul>
-                <li>la vitesse d’affichage du texte : lent, moyen, rapide.</li>
-                <li>l’affichage ou non des animations lors des combats.</li>
-                <li>
-                  la possibilité ou non de changer de Pokémon lorsque vous
-                  battez celui de votre adversaire et qu’il envoie un autre
-                  Pokémon (mode choix/défini).
-                </li>
-              </ul>
-            </figcaption>
-          </figure>
+          <h2 id="Réglages">Les réglages</h2>
+
+          <div class="img_caption flex items-center">
+            <figure class="">
+              <img
+                class=""
+                src="../../../public/storage/img/Commande/reglages.jpg"
+                alt="reglages"
+              />
+            </figure>
+
+            <ul class="pl-5">
+              Différentes options s’offrent à vous dans le menu dédié :
+              <li>la vitesse d’affichage du texte : lent, moyen, rapide.</li>
+              <li>l’affichage ou non des animations lors des combats.</li>
+              <li>
+                la possibilité ou non de changer de Pokémon lorsque vous battez
+                celui de votre adversaire et qu’il envoie un autre Pokémon (mode
+                choix/défini).
+              </li>
+            </ul>
+          </div>
         </section>
         <section>
           <h2>Le menu</h2>
-          <figure class="grid col-span-3">
-            <img
-              class="h-56 col-span-1"
-              src="../../../public/storage/img/Commande/menu.jpg"
-              alt="reglages"
-            />
-            <figcaption class="m-5 col-span-2">
-              <p class="">
-                Appuyez sur Start pour afficher le menu général du jeu. Celui-ci
-                vous offre plusieurs options
-              </p>
-            </figcaption>
-          </figure>
+
+          <div class="img_caption flex items-center">
+            <figure class="">
+              <img
+                class=""
+                src="../../../public/storage/img/Commande/menu.jpg"
+                alt="Commande"
+              />
+            </figure>
+
+            <p class="pl-5">
+              Appuyez sur Start pour afficher le menu général du jeu. Celui-ci
+              vous offre plusieurs options
+            </p>
+          </div>
+
           <h3>Encyclopédie</h3>
           <p>
-            Vous pouvez consulter l’Encyclopédie Pokémon, où vous trouverez des
-            informations sur les Pokémon, comme leur cri ou leur localisation.
-            Vous pouvez également voir combien de Pokémon vous avez vus et
-            attrapés.
+            Vous pouvez consulter
+            <a href="#Encyclopédie">l’Encyclopédie Pokémon</a>., où vous
+            trouverez des informations sur les Pokémon, comme leur cri ou leur
+            localisation. Vous pouvez également voir combien de Pokémon vous
+            avez vus et attrapés.
           </p>
           <h3>Pokémon</h3>
 
-          <div class="flex items-center">
-            <img
-              class="h-56"
-              src="../../../public/storage/img/Commande/equipe.jpg"
-              alt="reglages"
-            />
+          <div class="img_caption flex items-center">
+            <figure class="">
+              <img
+                class=""
+                src="../../../public/storage/img/Commande/equipe.jpg"
+                alt="reglages"
+              />
+              <figcaption class="text-center italic">
+                Votre équipe de Pokémon
+              </figcaption>
+            </figure>
 
             <p class="pl-5">
               Pokémon : vous pouvez ici voir l’état de votre équipe de Pokémon,
@@ -191,31 +202,86 @@ const error = ref(null);
               l’option “Ordre”.
             </p>
           </div>
-          <figcaption class="ml-12">Votre équipe de Pokémon</figcaption>
           <h3>Objets</h3>
           <p>
             Vous pouvez ici voir la liste des objets que vous possédez. Vous
             pouvez en porter 20 sur vous maximum. En sélectionnant un objet,
             vous avez la possibilité de l’utiliser ou de le jeter.
           </p>
+
+          <figure class="img_gsm">
+            <img
+              src="../../../public/storage/img/Commande/menu_objets.jpg"
+              alt="menu_objets"
+            />
+            <figcaption class="pl-12 italic menu1">
+              Le menu des objets
+            </figcaption>
+          </figure>
+
           <h3>Nom du protagoniste</h3>
           <p>
             vous pouvez ici consulter votre nom, l’argent que vous possédez,
             votre temps de jeu, ainsi que votre avancement dans la récolte des
             badges de Gymnases.
           </p>
+          <figure class="img_gsm">
+            <img
+              src="../../../public/storage/img/Commande/fiche_perso.jpg"
+              alt="fiche_perso"
+            />
+            <figcaption class="pl-3 italic menu2">
+              La fiche de votre personnage
+            </figcaption>
+          </figure>
           <h3 id="Rapport">Rapport</h3>
           <p>
             Vous pouvez ici sauvegarder votre partie. Cette option est tout le
             temps disponible, sauf lors d’un combat.
           </p>
           <h3>Options</h3>
-          <p>Voir les réglages</p>
+          <p>Voir <a href="#Réglages">les réglages</a></p>
           <h3>Fermer</h3>
           <p>
             Cette commande vous permet de fermer le menu et de revenir au jeu.
           </p>
         </section>
+        <section>
+          <h2>Les types des Pokémon</h2>
+          <p>
+            Chaque Pokémon a un type. Il existe plusieurs types comme Insecte,
+            Électrique ou Flamme.
+          </p>
+        </section>
+        <section>
+          <h2>Les statistiques des Pokémon</h2>
+          <div class="flex justify-center">
+            <figure class="">
+              <img
+                class="h-44"
+                src="../../../public/storage/img/Commande/stats.jpg"
+                alt="stats"
+              />
+              <figcaption class="italic text-center">
+                Les statistiques du Pokémon
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                class="h-44"
+                src="../../../public/storage/img/Commande/stats_attaques.jpg"
+                alt="stats_attaques"
+              />
+              <figcaption class="italic text-center">
+                Les statistiques des techniques
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
         <section></section>
       </article>
     </main>
@@ -233,5 +299,9 @@ section {
 }
 li {
   margin-left: 2em;
+}
+.img_caption p,
+.img_caption ul {
+  width: 80%;
 }
 </style>

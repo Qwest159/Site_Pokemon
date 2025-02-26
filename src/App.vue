@@ -98,6 +98,12 @@ a {
   #image_droite {
     height: 18em;
   }
+  .img_gsm img,
+  .img_gsm figcaption {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+  }
 }
 /* partie ORDINATEUR */
 @media (min-width: 760px) {
@@ -129,6 +135,17 @@ a {
   }
   #text-accueil {
     margin: 2em 7em;
+  }
+  .img_gsm img {
+    margin: 0;
+  }
+  .img_gsm .menu1 {
+    text-align: left;
+    padding-left: 3em;
+  }
+  .img_gsm .menu2 {
+    text-align: left;
+    padding-left: 1em;
   }
 }
 /* adaptation pour accueil */
