@@ -318,8 +318,8 @@ const error = ref(null);
             durable ou alors juste le temps d’un combat.
           </p>
 
-          <table class="text-center m-auto mb-9">
-            <tr>
+          <table class="m-auto">
+            <tr class="gsm_th">
               <th>Statistique</th>
               <th>Objet d’amélioration durable</th>
               <th>Objet d’amélioration temporaire</th>
@@ -404,10 +404,336 @@ const error = ref(null);
             </tr>
           </table>
         </section>
-        <section></section>
-        <section></section>
-        <section></section>
-        <section></section>
+        <section>
+          <h3>Montées en niveau et évolutions</h3>
+          <p>
+            En gagnant de l’expérience, les Pokémon montent de niveau. Le moyen
+            le plus classique de gagner de l’expérience est via les combats. Il
+            est également possible de gagner des niveaux à l’aide des
+            <a href="">Bonbons Mystère</a> ou via les services de la
+            <a href="">Garderie</a>.
+          </p>
+          <p>
+            En montant de niveau, certains Pokémon peuvent évoluer et changer de
+            forme.
+          </p>
+          <figure class="">
+            <img
+              class="m-auto"
+              src="/storage/img/Commande/img_evo.png"
+              alt="Nidoran"
+            />
+          </figure>
+        </section>
+        <section>
+          <h3>Les Centres Pokémon</h3>
+          <div class="img_caption flex items-center">
+            <figure class="">
+              <img
+                class=""
+                src="../../../public/storage/img/Commande/gymnase.jpg"
+                alt="Gymnase"
+              />
+            </figure>
+
+            <p class="pl-5">
+              Chaque ville est équipée d’un Centre Pokémon. Ce sont des lieux où
+              les Dresseurs peuvent restaurer les PV et les PP de leurs Pokémon,
+              et ce gratuitement.
+            </p>
+          </div>
+          <div class="img_caption flex items-center">
+            <div class="">
+              <p>
+                De plus, les Centres Pokémon sont équipés d’un ordinateur qui
+                vous permet de stocker et retirer des Pokémon et des objets. De
+                plus, vous pouvez faire évaluer votre Encyclopédie Pokémon par
+                le Docteur Okido en ligne.
+              </p>
+              <p>
+                Vous disposez de huit boîtes pouvant contenir trente Pokémon
+                chacun, ce qui fait donc un stockage maximum de 240 Pokémon.
+              </p>
+            </div>
+            <figure class="">
+              <img
+                class=""
+                src="../../../public/storage/img/Commande/pc.png"
+                alt="ordinateur de stockage"
+              />
+            </figure>
+          </div>
+          <p>
+            Les Centres Pokémon comprennent également un “<a href="http://"
+              >Club de Communication pour Câble</a
+            >” pour les échanges et combats avec d’autres joueurs, à l’aide du
+            Câble Link.
+          </p>
+        </section>
+        <section>
+          <h3>Les Boutiques Amicales</h3>
+        </section>
+        <div class="img_caption flex items-center">
+          <figure class="">
+            <img
+              class=""
+              src="../../../public/storage/img/Commande/?.png"
+              alt="les boutiques amicales"
+            />
+          </figure>
+          <p>
+            Chaque ville est équipée d’une Boutique Amicale où vous pouvez
+            acheter divers objets utiles à votre aventure. Il est également
+            possible d’y vendre des objets.
+          </p>
+        </div>
+        <section>
+          <h3>L’Encyclopédie Pokémon</h3>
+          <p>
+            Il s’agit d’un outil high-tech que vous fournit le Docteur Okido :
+            elle enregistre automatiquement les informations des Pokémon que
+            vous capturez. Votre objectif est de le remplir entièrement, et pour
+            ce faire, vous devrez obligatoirement battre les huit Chefs de
+            Gymnase.
+          </p>
+          <div class="flex gap-2 justify-evenly">
+            <figure class="">
+              <img
+                class=""
+                src="../../../public/storage/img/Commande/encyclopedie.jpg"
+                alt="encyclopédie"
+              />
+              <figcaption class="italic text-center">
+                L’Encyclopédie Pokémon
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                class=""
+                src="../../../public/storage/img/Commande/infos_pokemon.jpg"
+                alt="infos_pokemon"
+              />
+              <figcaption class="italic text-center">
+                Informations du Pokémon
+              </figcaption>
+            </figure>
+            <figure>
+              <img
+                class=""
+                src="../../../public/storage/img/Commande/localisation.jpg"
+                alt="localisation"
+              />
+              <figcaption class="italic text-center">
+                Localisation du Pokémon
+              </figcaption>
+            </figure>
+          </div>
+          <p>
+            Les Pokémon y sont classés par numéro. Il est possible d’y consulter
+            les informations générales du Pokémon : son nom, sa catégorie, sa
+            taille, son poids, une brève description. Vous pouvez également
+            écouter son cri et voir où le capturer.
+          </p>
+          <p>
+            Tout au long de votre aventure, vous pouvez faire évoluer votre
+            avancement dans la complétion de l’Encyclopédie par le Dr. Okido via
+            le PC des Centres Pokémon.
+          </p>
+        </section>
+        <section>
+          <h3>Les combats</h3>
+          <p>
+            Les Pokémon peuvent se battre. Au cours d’un combat, les Pokémon
+            utilisent des techniques. Ils gagnent de l’expérience, ce qui leur
+            fait apprendre de nouvelles techniques plus puissantes. Pour
+            réorganiser l’ordre des techniques d’un Pokémon, lancez un combat,
+            sélectionnez “Technique” puis choisissez la technique que vous
+            souhaitez déplacer avec le bouton Select. Déplacez le curseur vers
+            la nouvelle position voulue et appuyez à nouveau sur Select.
+          </p>
+          <p>
+            Lors d’un combat, il est possible d’utiliser certains objets pour
+            booster son Pokémon : voir
+            <a href="">Les statistiques des Pokémon</a>.
+          </p>
+          <p>
+            Parfois, une attaque a la possibilité de frapper plus fort. Cette
+            probabilité peut être augmentée grâce à l’objet
+            <a href="">Criticutter</a>.
+          </p>
+        </section>
+        <section>
+          <h3>La capture des Pokémon</h3>
+          <p>
+            Il existe différents types de balles pour capturer les Pokémon.
+            Ceux-ci ont des taux de réussite variables, ce qui veut dire qu’une
+            capture ne fonctionne pas à tous les coups :
+          </p>
+          <table class="text-center m-auto mb-9">
+            <tr>
+              <th>Nom japonais</th>
+              <th>Nom francisé</th>
+              <th>Brève description</th>
+            </tr>
+            <tr>
+              <td class="italic">
+                <a href=""
+                  >モンスターボール <br />
+                  Monsutā Bōru</a
+                >
+              </td>
+              <td class="italic"><a href="">Monster Ball</a></td>
+              <td>Sert à attraper les Pokémon.</td>
+            </tr>
+            <tr>
+              <td class="italic">
+                <a href="">スーパーボール <br />Sūpā Bōru</a>
+              </td>
+              <td class="italic"><a href="">Super Ball</a></td>
+              <td>Balle plus performante que la Monster Ball.</td>
+            </tr>
+            <tr>
+              <td class="italic">
+                <a href=""
+                  >ハイパーボール <br />
+                  Haipā Bōru</a
+                >
+              </td>
+              <td class="italic"><a href="">Hyper Ball</a></td>
+              <td>Balle encore plus performante que la Super Ball.</td>
+            </tr>
+            <tr>
+              <td class="italic">
+                <a href=""
+                  >サファリボール<br />
+                  Safari Bōru</a
+                >
+              </td>
+              <td class="italic"><a href="">Safari Ball</a></td>
+              <td>
+                Sert à attraper des Pokémon dans la <a href="">Zone Safari</a>.
+              </td>
+            </tr>
+            <tr>
+              <td class="italic">
+                <a href=""
+                  >マスターボール<br />
+                  Masutā Bōru</a
+                >
+              </td>
+              <td class="italic"><a href="">Master Ball</a></td>
+              <td>La balle ultime avec une capture garantie à 100%.</td>
+            </tr>
+          </table>
+        </section>
+        <section>
+          <h3>Les états spéciaux</h3>
+          <p>
+            Les Pokémon peuvent parfois subir un état dégradé. Il existe
+            plusieurs de ces états spéciaux :
+          </p>
+
+          <table class="text-center m-auto mb-9">
+            <tr class="">
+              <th>État</th>
+              <th>Effets</th>
+              <th>Soin spécifique</th>
+            </tr>
+            <tr>
+              <td>Poison</td>
+              <td></td>
+              <td>
+                <a href="">Antidote</a> (<span class="italic"
+                  >どくけし, Doku Keshi</span
+                >)
+              </td>
+            </tr>
+            <tr>
+              <td>Brûlure</td>
+              <td></td>
+              <td>
+                <a href="">Anti Brûlure</a>
+                <span class="italic"></span> (やけどなおし, Yakedo Naoshi)
+              </td>
+            </tr>
+            <tr>
+              <td>Gel</td>
+              <td></td>
+              <td>
+                <a href="">Anti Gel </a> (<span class="italic"
+                  >こおりなおし, Kōri Naoshi</span
+                >)
+              </td>
+            </tr>
+            <tr>
+              <td>Somnolence</td>
+              <td></td>
+              <td>
+                <a href="">Anti Somnolence </a>
+                (<span class="italic">ねむけざまし, Nemu ke zama shi</span>)
+              </td>
+            </tr>
+            <tr>
+              <td>Paralysie</td>
+              <td></td>
+              <td>
+                <a href="">Anti Paralysie </a>
+                (<span class="italic">まひなおし, Mahi Naoshi</span>)
+              </td>
+            </tr>
+            <tr>
+              <td>Évanouissement</td>
+              <td>Le Pokémon n’a plus de PV et ne peut plus combattre.</td>
+              <td class="">
+                <a href="">Fragment / Bouquet de vitalité</a>
+                (<span class="italic">げんきのかけら, Genki no Kakera</span> //
+                <span class="italic">げんきのかたまり, Genki no Katamari</span>)
+              </td>
+            </tr>
+          </table>
+          <p>
+            À noter que tous les états spéciaux hors de l’évanouissement peuvent
+            être soignés par un <a href="">Soigne-Tout</a> (<span class="italic"
+              >なんでもなおし, Nandemo Naoshi</span
+            >) ou un <a href="">Médicament de Récupération</a> (<span
+              class="italic"
+              >かいふくのくすり, Kaifuku no kusuri</span
+            >).
+          </p>
+        </section>
+        <section>
+          <h3>Conseils pour jouer</h3>
+          <ul>
+            Voici quelques conseils pour progresser plus facilement dans le jeu
+            !
+
+            <li>
+              Le Pokémon qui occupe la première place dans votre équipe a son
+              importance, vu que c’est lui qui sera envoyé en premier au combat.
+              Il est judicieux de placer son Pokémon le plus fort, ou alors
+              celui que vous voulez entraîner.
+            </li>
+            <li>
+              Rentrez dans les maisons des gens et parlez leurs, ils peuvent
+              parfois vous révéler des informations importantes !
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h3>Club de Communication par Câble</h3>
+          <p>
+            Dans chaque Centre Pokémon, vous pouvez trouver un “Club de
+            Communication par Câble”, qui vous permet d’échanger et de combattre
+            avec d’autres joueurs à l’aide du Câble Link.
+          </p>
+        </section>
+        <section>
+          <h3>Les “Dispositifs d’attaque” et “Dispositifs secrets”</h3>
+          <p>
+            Vous pouvez les obtenir auprès des Chefs de Gymnases et d’autres
+            PNJ.
+          </p>
+        </section>
         <section></section>
       </article>
     </main>
@@ -427,6 +753,7 @@ li {
   margin-left: 2em;
 }
 .img_caption p,
+.img_caption div,
 .img_caption ul {
   width: 80%;
 }

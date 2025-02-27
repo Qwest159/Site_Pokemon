@@ -104,6 +104,10 @@ a {
     padding: 0;
     text-align: center;
   }
+  /* -------Mécanique de jeu --------- */
+  .gsm_th {
+    font-size: 0.9rem !important;
+  }
 }
 /* partie ORDINATEUR */
 @media (min-width: 760px) {
