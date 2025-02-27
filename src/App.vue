@@ -71,7 +71,6 @@ function responsive() {
 </template>
 
 <style>
-/* partie gsm */
 #nav_ordi a,
 #nav_gsm_lien a {
   @apply border-b-2;
@@ -82,6 +81,7 @@ function responsive() {
 a {
   color: blue;
 }
+/* partie gsm */
 @media (min-width: 0px) {
   nav {
     display: none;

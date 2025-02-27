@@ -59,10 +59,10 @@ let [image_gauche, image_droite] = click();
         Traduction du manuel japonais
       </h1>
 
-      <h3>
+      <p>
         Voici la traduction du manuel japonais de Pokémon
         <span class="Vert">Version Verte</span>
-      </h3>
+      </p>
       .
       <figure class="flex flex-row justify-center">
         <!-- diminuer -->

@@ -10,18 +10,18 @@ let change = ref(false);
         Différences entre les deux versions
       </h1>
 
-      <h3>
+      <p>
         Le jeu Pokémon existe en deux versions : la version Rouge
         <span>(Aka)</span> et la version Verte
         <span class="italic">(Midori)</span>. Certaines espèces de Pokémon sont
         exclusives à une version du jeu.
-      </h3>
+      </p>
       <p class="font-bold">Pokémon Exclusifs à Pokémon Rouge</p>
       <p class="font-bold">Pokémon Exclusifs à Pokémon Vert</p>
-      <h3>
+      <p>
         Par ailleurs, le taux d’apparition des Pokémon peut varier entre les
         deux jeux. Voici un tableau comparatif.
-      </h3>
+      </p>
       <table class="m-auto">
         <tr>
           <td>Pokémon</td>

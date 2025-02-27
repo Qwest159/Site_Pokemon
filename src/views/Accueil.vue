@@ -58,7 +58,7 @@ onMounted(() => {
       <div
         class="col-span-1 info-accueil rounded-xl mx-5 p-2 justify-self-center"
       >
-        <table class="text-center">
+        <table class="text-center tableau_accueil">
           <tr>
             <td>Noms japonais</td>
             <td>
@@ -135,7 +135,7 @@ td {
 tbody > tr:nth-of-type(even) {
   background-color: rgb(237 238 242);
 }
-tbody > tr td:nth-child(2n + 1) {
+.tableau_accueil tbody > tr td:nth-child(2n + 1) {
   font-weight: 700;
 }
 </style>
