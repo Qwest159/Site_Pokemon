@@ -39,8 +39,10 @@ function click(quantity) {
       console.log(rajout.value);
     }
     if (id_image.value < 0) {
-      id_image.value = 0;
-      rajout.value = nbr_tableaux.value;
+      console.log(nbr_tableaux.value);
+
+      id_image.value = nbr_tableaux.value;
+      rajout.value = 0;
     }
     // console.log(id_image.value);
   }
