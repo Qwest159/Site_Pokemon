@@ -36,6 +36,8 @@ onMounted(() => {
         </tr>
         <tr v-for="pokemon in pokemonList.pokemons" :key="pokemon.id" class="">
           <td>
+            a
+            <a :href="`/Pokemons_id/${pokemon.id}`">click 4</a>
             <router-link :to="`/Pokemons_id/${pokemon.id}`">{{
               pokemon.id_pokemon
             }}</router-link>

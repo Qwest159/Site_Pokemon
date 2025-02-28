@@ -1,16 +1,16 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Accueil from "../views/Accueil.vue";
-import Manuel from "../views/Generation1/Manuel.vue";
-import Versions from "../views/Generation1/Versions.vue";
-import Histoire from "../views/Generation1/Histoire.vue";
-import Lieux from "../views/Generation1/Lieux.vue";
-import Personnages from "../views/Generation1/Personnages.vue";
-import Techniques from "../views/Generation1/Techniques.vue";
-import Pokemons from "../views/Generation1/Pokemon.vue";
-import InfoPokemon from "../views/Generation1/InfoPokemon.vue";
-import Objets from "../views/Generation1/Objets.vue";
-import Gymnases from "../views/Generation1/Gymnases.vue";
-import Controles from "../views/Generation1/Controles.vue";
+import Manuel from "../views/Manuel.vue";
+import Versions from "../views/Versions.vue";
+import Histoire from "../views/Histoire.vue";
+import Lieux from "../views/Lieux.vue";
+import Personnages from "../views/Personnages.vue";
+import Techniques from "../views/Techniques.vue";
+import Pokemons from "../views/Pokemon.vue";
+import InfoPokemon from "../views/InfoPokemon.vue";
+import Objets from "../views/Objets.vue";
+import Gymnases from "../views/Gymnases.vue";
+import Controles from "../views/Controles.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
