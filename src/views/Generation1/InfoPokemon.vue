@@ -5,9 +5,21 @@ let pokemonList = ref([]);
 const isLoading = ref(true);
 const error = ref(null);
 
+const props = defineProps({
+  id: {
+    type: String,
+    required: true,
+  },
+});
+
+// ATTENTION ID -1 (met +1 par rapport au lien)
+const pokemon_id = props.id;
+
+console.log(pokemon_id);
+
 function fetchPokemonList() {
   try {
-    pokemonList.value = pokemon;
+    pokemonList.value = pokemon.pokemons[pokemon_id - 1];
   } catch (err) {
     error.value = err;
   } finally {
@@ -34,33 +46,16 @@ onMounted(() => {
           <th>Nom francisé</th>
           <th>Type</th>
         </tr>
-        <tr v-for="pokemon in pokemonList.pokemons" :key="pokemon.id" class="">
+        <tr>
+          <td>{{ pokemonList.id_pokemon }}</td>
           <td>
-            <router-link :to="`/Pokemons_id/${pokemon.id}`">{{
-              pokemon.id_pokemon
-            }}</router-link>
+            <figure>
+              <img :src="`/storage/${pokemonList.image}`" alt="" />
+            </figure>
           </td>
-          <td>
-            <router-link :to="`/Pokemons_id/${pokemon.id}`"
-              ><figure class="w-16" v-if="pokemon.image">
-                <img
-                  class="m-auto"
-                  :src="`/storage/${pokemon.image}`"
-                  :alt="`${pokemon.nom_francise}`"
-                /></figure
-            ></router-link>
-          </td>
-          <td class="italic">
-            <router-link :to="`/Pokemons_id/${pokemon.id}`">
-              {{ pokemon.nom_japonais }}
-            </router-link>
-          </td>
-          <td class="italic">
-            <router-link :to="`/Pokemons_id/${pokemon.id}`">
-              {{ pokemon.nom_francise }}
-            </router-link>
-          </td>
-          <td>{{ pokemon.type }}</td>
+          <td>{{ pokemonList.nom_japonais }}</td>
+          <td>{{ pokemonList.nom_francise }}</td>
+          <td>{{ pokemonList.type }}</td>
         </tr>
       </table>
     </article>
@@ -76,11 +71,5 @@ h2 {
 
 .lien_lieu {
   border: none;
-}
-a {
-  color: black;
-}
-a:hover {
-  color: red;
 }
 </style>

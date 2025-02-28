@@ -405,7 +405,7 @@ const error = ref(null);
           </table>
         </section>
         <section>
-          <h3>Montées en niveau et évolutions</h3>
+          <h2>Montées en niveau et évolutions</h2>
           <p>
             En gagnant de l’expérience, les Pokémon montent de niveau. Le moyen
             le plus classique de gagner de l’expérience est via les combats. Il
@@ -426,7 +426,7 @@ const error = ref(null);
           </figure>
         </section>
         <section>
-          <h3>Les Centres Pokémon</h3>
+          <h2>Les Centres Pokémon</h2>
           <div class="img_caption flex items-center">
             <figure class="">
               <img
@@ -471,24 +471,24 @@ const error = ref(null);
           </p>
         </section>
         <section>
-          <h3>Les Boutiques Amicales</h3>
+          <h2>Les Boutiques Amicales</h2>
         </section>
         <div class="img_caption flex items-center">
           <figure class="">
             <img
               class=""
-              src="../../../public/storage/img/Commande/?.png"
+              src="../../../public/storage/img/Commande/boutique_amicale.jpg"
               alt="les boutiques amicales"
             />
           </figure>
-          <p>
+          <p class="pl-5">
             Chaque ville est équipée d’une Boutique Amicale où vous pouvez
             acheter divers objets utiles à votre aventure. Il est également
             possible d’y vendre des objets.
           </p>
         </div>
         <section>
-          <h3>L’Encyclopédie Pokémon</h3>
+          <h2>L’Encyclopédie Pokémon</h2>
           <p>
             Il s’agit d’un outil high-tech que vous fournit le Docteur Okido :
             elle enregistre automatiquement les informations des Pokémon que
@@ -528,7 +528,7 @@ const error = ref(null);
               </figcaption>
             </figure>
           </div>
-          <p>
+          <p class="">
             Les Pokémon y sont classés par numéro. Il est possible d’y consulter
             les informations générales du Pokémon : son nom, sa catégorie, sa
             taille, son poids, une brève description. Vous pouvez également
@@ -541,7 +541,7 @@ const error = ref(null);
           </p>
         </section>
         <section>
-          <h3>Les combats</h3>
+          <h2>Les combats</h2>
           <p>
             Les Pokémon peuvent se battre. Au cours d’un combat, les Pokémon
             utilisent des techniques. Ils gagnent de l’expérience, ce qui leur
@@ -563,7 +563,7 @@ const error = ref(null);
           </p>
         </section>
         <section>
-          <h3>La capture des Pokémon</h3>
+          <h2>La capture des Pokémon</h2>
           <p>
             Il existe différents types de balles pour capturer les Pokémon.
             Ceux-ci ont des taux de réussite variables, ce qui veut dire qu’une
@@ -627,7 +627,7 @@ const error = ref(null);
           </table>
         </section>
         <section>
-          <h3>Les états spéciaux</h3>
+          <h2>Les états spéciaux</h2>
           <p>
             Les Pokémon peuvent parfois subir un état dégradé. Il existe
             plusieurs de ces états spéciaux :
@@ -702,7 +702,7 @@ const error = ref(null);
           </p>
         </section>
         <section>
-          <h3>Conseils pour jouer</h3>
+          <h2>Conseils pour jouer</h2>
           <ul>
             Voici quelques conseils pour progresser plus facilement dans le jeu
             !
@@ -714,26 +714,12 @@ const error = ref(null);
               celui que vous voulez entraîner.
             </li>
             <li>
-              Rentrez dans les maisons des gens et parlez leurs, ils peuvent
+              Rentrez dans les maisons des gens et parlez-leur, ils peuvent
               parfois vous révéler des informations importantes !
             </li>
           </ul>
         </section>
-        <section>
-          <h3>Club de Communication par Câble</h3>
-          <p>
-            Dans chaque Centre Pokémon, vous pouvez trouver un “Club de
-            Communication par Câble”, qui vous permet d’échanger et de combattre
-            avec d’autres joueurs à l’aide du Câble Link.
-          </p>
-        </section>
-        <section>
-          <h3>Les “Dispositifs d’attaque” et “Dispositifs secrets”</h3>
-          <p>
-            Vous pouvez les obtenir auprès des Chefs de Gymnases et d’autres
-            PNJ.
-          </p>
-        </section>
+
         <section></section>
       </article>
     </main>

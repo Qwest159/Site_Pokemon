@@ -7,6 +7,7 @@ import Lieux from "../views/Generation1/Lieux.vue";
 import Personnages from "../views/Generation1/Personnages.vue";
 import Techniques from "../views/Generation1/Techniques.vue";
 import Pokemons from "../views/Generation1/Pokemon.vue";
+import InfoPokemon from "../views/Generation1/InfoPokemon.vue";
 import Objets from "../views/Generation1/Objets.vue";
 import Gymnases from "../views/Generation1/Gymnases.vue";
 import Controles from "../views/Generation1/Controles.vue";
@@ -69,6 +70,12 @@ const router = createRouter({
       path: "/Controles",
       name: "Controles",
       component: Controles,
+    },
+    {
+      path: "/Pokemons_id/:id",
+      name: "Pokemons_id",
+      component: InfoPokemon,
+      props: true,
     },
   ],
 });

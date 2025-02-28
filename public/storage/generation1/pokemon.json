@@ -32,14 +32,7 @@
       "nom_francise": "Hitokage",
       "type": "Flamme"
     },
-    {
-      "id": 4,
-      "id_pokemon": "004",
-      "image": "",
-      "nom_japonais": "",
-      "nom_francise": "",
-      "type": ""
-    },
+
     {
       "id": 5,
       "id_pokemon": "005",

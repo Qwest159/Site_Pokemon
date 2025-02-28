@@ -97,13 +97,13 @@ onMounted(() => {
     <p id="text-accueil">
       <span class="font-bold">Résumé :</span> Le jeu met en scène un garçon de
       onze ans nommé Red (dans la version Rouge) ou Green (dans la version
-      Verte), qui part à l’aventure le jour où le Professeur Okido lui offre son
+      Verte), qui part à l’aventure le jour où le Docteur Okido lui offre son
       premier Pokémon. Un Pokémon ? Il s’agit de créatures vivant dans la
       nature. Celles-ci peuvent combattre, ce qui leur fait gagner de
       l’expérience. Cette expérience leur permet d’acquérir de nouvelles
       techniques et même éventuellement d’évoluer et de changer de forme ! Votre
-      objectif est double : compléter l’encyclopédie Pokémon que vous a fourni
-      le Professeur Okido et vaincre les huits Chefs de Gymnase.
+      objectif est double : compléter l’Encyclopédie Pokémon que vous a fourni
+      le Docteur Okido et vaincre les huits Chefs de Gymnase.
     </p>
   </div>
 </template>
